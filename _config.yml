@@ -8,15 +8,15 @@ permalink: /:year/:month/:day/:title
 title:               PAIESO
 tagline:             'Emergency Surgery Saves Lives'
 description:         'Professional Association of Integrated Emergency Surgery Officers of Ethiopia. Saving lives across Ethiopia through emergency obstetric, general and trauma surgery.'
-url:                 'http://vvcb.github.io'
+url:                 'http://paieso.github.io'
 baseurl:             ''
 paginate:            5 #This tells Jekyll how many posts to display per page
 
 # About/contact
 author:
   name:              vvcb
-  url:               https://twitter.com/vvcb
-  email:             emergencysurgery2000@gmail.com
+  url:               https://github.com/vvcb
+  email:             paieso@gmail.com
   
 # Set the Sass partials directory, as we're using @imports
 sass:
