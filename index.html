@@ -1,0 +1,21 @@
+---
+layout: default
+title: Home
+---
+<p>Welcome to the Professional Association of Integrated Emergency Surgery Officers of Ethiopia.</p>
+<p>Surgical and obstetric emergencies are a major cause of death in Ethiopia. Maternal and infant mortality from perinatal complications remain unacceptably high. Road traffic collisions and other surgical emergencies also contribute to high death rates amongst the young and the old.</p>
+<p>The Ethiopian Government and Ministry of Health recognised this huge problem and introduced the <a href="http://www.moh.gov.et/en_GB/ieso" target="_blank">Integrated Emergency Surgical Officer</a> (IESO) programme in 2010 as one of the steps towards achieving some of the <a href="http://www.un.org/millenniumgoals/" target="_blank">Millennium Development Goals</a> set by the <a href="http://www.un.org/" target="_blank">United Nations</a>.</p>
+
+
+<div>
+  <h2>Recent posts</h2>
+  {% for post in site.posts limit:5 %}
+  <div>
+    <h3>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h3>
+  </div>
+  {% endfor %}
+</div>
