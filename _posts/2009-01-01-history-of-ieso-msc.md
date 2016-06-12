@@ -19,4 +19,4 @@ UNFPA has donated several ambulances to support the MSc Programme and the Region
 It is hoped that the ambulances will help significantly reduce mortatlity rate, particularly amongst pregnant women.
 
 For more information on the history of IESO MSc click the following link:  
-[MSc Programme on Integrated Emergency Obstetric Surgery launched](http://www.ethiopia.unfpa.org/news/msc-programme-integrated-emergency-obstetric-surgery-launched)
+[MSc Programme on Integrated Emergency Obstetric Surgery launched](http://ethiopia.unfpa.org/news/msc-programme-integrated-emergency-obstetric-surgery-launched)
