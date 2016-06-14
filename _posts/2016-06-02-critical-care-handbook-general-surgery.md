@@ -2,7 +2,6 @@
 layout: post
 title: Critical Care Handbook For Global Surgery
 tags: ebooks
-comments: true
 ---
 
 [Alba Critical Care Course Design](http://www/albacccd.com) is a Scottish Incorporated Charitable Organisation whose members help to teach surgical critical care skills in resource-constrained settings, especially in sub-Saharan Africa.
