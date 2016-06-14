@@ -2,6 +2,7 @@
 layout: post
 title: The History of IESO MSc
 tags: news
+comments: true
 ---
 The MSc programme on Integrated Emergency Obstetric Surgery was initiated at Jimma, Hawassa and Mkele Universities in January 2009.
 The programme was implemented by the Ministry of Health and Ministry of Education through the three universities.
