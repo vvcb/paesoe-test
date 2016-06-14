@@ -2,7 +2,6 @@
 layout: post
 title: Surgical Care at the District Hospital
 tags: ebooks
-comments: true
 ---
 
 [Download the PDF from W.H.O.](http://www.who.int/surgery/publications/en/SCDH.pdf) (6.64Mb)

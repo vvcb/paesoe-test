@@ -2,7 +2,6 @@
 layout: post
 title: Annual meeting - 30/03/2016
 tags: news
-comments: true
 ---
 The annual meeting of PAIESO was held on the 30th of March 2016 at [Wabi Shebelle Hotel](http://www.wabeshebellehotel.com.et/en/) in Addis Ababa. 
 The meeting was well attended and several ongoing issues were discussed. 
