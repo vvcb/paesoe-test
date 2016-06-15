@@ -18,7 +18,7 @@ Please get in touch with your own inspiring stories or suggestions. We look forw
         </div>
         
         <div class="pure-control-group">
-            <label for="email">Email Address</label>
+            <label for="email">Email</label>
             <input id="email" 
                    class="pure-input-2-3" 
                    type="email" 
