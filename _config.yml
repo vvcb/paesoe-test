@@ -5,10 +5,10 @@
 permalink: /:year/:month/:day/:title
 
 # Setup
-title:               PAIESO
+title:               PAESOE
 tagline:             'Emergency Surgery Saves Lives'
-description:         'Professional Association of Integrated Emergency Surgery Officers of Ethiopia. Saving lives across Ethiopia through emergency obstetric, general and trauma surgery.'
-url:                 'http://paieso.github.io'
+description:         'Professional Association of Emergency Surgery Officers in Ethiopia. Saving lives across Ethiopia through emergency obstetric, general and trauma surgery.'
+url:                 'http://paesoe.github.io'
 baseurl:             ''
 paginate:            5 #This tells Jekyll how many posts to display per page
 
