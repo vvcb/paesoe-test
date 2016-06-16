@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+menu_order: 10
 ---
 
 Integrated Emergency Surgical Officers are advanced associate clinicians who have completed a graduate degree (MSc) in integrated emergency general surgery, obstetrics and gynaecology (IEGSOG curriculum, 2009). 

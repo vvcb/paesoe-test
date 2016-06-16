@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Blog
+menu_order: 30
 ---
 {% for post in site.posts %}
 
