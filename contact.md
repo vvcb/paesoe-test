@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact Us
+menu_order: 40
 ---
 Please get in touch with your own inspiring stories or suggestions. We look forward to hearing from you.
 
