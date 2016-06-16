@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact Us
+menu_order: 40
 ---
 Please get in touch with your own inspiring stories or suggestions. We look forward to hearing from you.
 
@@ -18,7 +19,7 @@ Please get in touch with your own inspiring stories or suggestions. We look forw
         </div>
         
         <div class="pure-control-group">
-            <label for="email">Email Address</label>
+            <label for="email">Email</label>
             <input id="email" 
                    class="pure-input-2-3" 
                    type="email" 
@@ -28,11 +29,17 @@ Please get in touch with your own inspiring stories or suggestions. We look forw
         
         <div class="pure-control-group">
             <label for="subject">Subject</label>
-            <input id="subject" 
-                   class="pure-input-2-3"
-                   type="text" 
-                   name="subject" 
-                   placeholder="Inspiring story? Fantastic suggestion?">
+            <select id="subject" 
+                  class="pure-input-2-3" 
+                  type="text" 
+                  name="_subject">
+                <option value="Inspiring story">Inspiring Story</option>
+                <option value="Fantastic suggestion">Fantastic suggestion</option>
+                <option value="Link to learning material">Link to learning material</option>
+                <option value="Can you tell me how to....?">Can you tell me how to....?</option>
+                <option value="Something else...">Something else...</option>
+            </select>
+        </div>
         </div>
         
         <div class="pure-control-group">
@@ -43,7 +50,8 @@ Please get in touch with your own inspiring stories or suggestions. We look forw
                       placeholder="Enter a brief message here.">
             </textarea>
         </div>
-
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="hidden" name="_next" value="{{ site.baseurl }}/" />
         <div class="pure-controls">
             <button type="submit" 
                     class="pure-button pure-button-primary">Submit

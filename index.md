@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+menu_order: 0
 ---
 Welcome to the Professional Association of Integrated Emergency Surgery Officers of Ethiopia.
 
