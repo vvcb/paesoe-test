@@ -40,8 +40,7 @@ Please get in touch with your own inspiring stories or suggestions. We look forw
                 <option value="Something else...">Something else...</option>
             </select>
         </div>
-        </div>
-        
+              
         <div class="pure-control-group">
             <label for="message">Message</label>
             <textarea id="message" 
