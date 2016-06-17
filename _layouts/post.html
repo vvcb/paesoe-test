@@ -10,13 +10,13 @@ layout: default
 <div>
     <div class="pure-u-1-4" >
      {% if page.previous.url %}
-        <a class="pure-button" href="{{page.previous.url}}">Previous</a>
+        <a href="{{page.previous.url}}">&lt;&lt; Previous</a>
     {% endif %}
     </div>
     <div class="pure-u-2-4" ></div>
     <div class="pure-u-1-4" >
     {% if page.next.url %}
-        <a class="pure-button" href="{{page.next.url}}">Next</a>
+        <a href="{{page.next.url}}">Next &gt;&gt;</a>
     {% endif %}
     </div>
 </div>
@@ -27,8 +27,7 @@ layout: default
       <li>
         <strong>
           <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
+            {{ post.date | date_to_string }} {{ post.title }}
           </a>
         </strong>
       </li>
