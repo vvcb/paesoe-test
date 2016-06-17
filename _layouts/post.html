@@ -8,19 +8,6 @@ layout: default
     {{ content }}
 </div>
 <div>
-    <div class="pure-u-1-4" >
-     {% if page.previous.url %}
-        <a href="{{page.previous.url}}">&lt;&lt; Previous</a>
-    {% endif %}
-    </div>
-    <div class="pure-u-2-4" ></div>
-    <div class="pure-u-1-4" >
-    {% if page.next.url %}
-        <a href="{{page.next.url}}">Next &gt;&gt;</a>
-    {% endif %}
-    </div>
-</div>
-<div>
   <h2 class="content-subhead">Related Posts</h2>
   <ul>
     {% for post in site.related_posts limit:3 %}
