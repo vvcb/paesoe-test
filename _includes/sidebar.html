@@ -13,7 +13,7 @@
                 The code below dynamically generates a sidebar nav of pages with `layout: page` in the front-matter. See readme for usage.
             {% endcomment %}
 
-            {% assign pages_list = site.pages | sort:"url" %}
+            {% assign pages_list = site.pages | sort:"menu_order" %}
                 {% for node in pages_list %}
                     {% if node.title != null %}
                         {% if node.layout == "page" %}
@@ -21,21 +21,6 @@
                         {% endif %}
                     {% endif %}
                 {% endfor %}
-            </ul>
-        </div>
-        <div class="pure-menu-separator"></div>
-        <div class="pure-menu">
-          <div class="pure-menu-heading">Contact</div>
-          <ul class="pure-menu-list">
-            <li class="pure-menu-item">
-              emergency<br>surgery<br>2000<br>@gmail.com
-            </li>
-            <li class="pure-menu-item">
-              +25 191 3725145
-            </li>
-            <li class="pure-menu-item">
-              Addis Ababa, Ethiopia
-            </li>
-          </ul>
-        </div>
+        </ul>
     </div>
+</div>
