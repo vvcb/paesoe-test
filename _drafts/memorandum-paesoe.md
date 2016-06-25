@@ -96,7 +96,7 @@ ESOAE will have its own yearly journal up on which update of maternal health and
 
 The association will be an affiliate member of Ethiopian medical association under the auspices of Ministry of Health of Ethiopia after an official grant of green light as a formal registered non profit making domestic professional association by ministry of justice.
 
-**2.4. Head office**
+#### 2.4. Head office
 
 The head quarters of the associations will be at Mekelle at present and will shift to Addis Ababa as logistic and financial capabilities permit.
 
@@ -238,24 +238,27 @@ The head quarters of the associations will be at Mekelle at present and will shi
 
 NB. The list is not complete. There are 52 ESO missing and their contact addresses and working places. We are still working on it.
 
-# Steering committee members
+#### Steering committee members
 
-**1. Goitom Berhane Haileselassie**
+**Goitom Berhane Haileselassie**  
++251-914725005  
+[goitombh@yahoo.com](mailto:goitombh@yahoo.com)  
+Korem District Hospital
 
-** Contact add. +251-914725005**
+**Solomon Abayneh**  
++251-913217560  
+[soleabay2009@gmail.com](mailto:soleabay2009@gmail.com)  
+Mehal Medda Hospital, Amhara
 
-**             ** [goitombh@yahoo.com](mailto:goitombh@yahoo.com)
+**Debele Soboka**  
++251-912065803  
+Abomssa Hospital, Oromia
 
-                                         Korem District Hospital
+**Birtukuan Bizuayehu**  
++251-923833345  
+Oromia
 
-**2. Solomon Abayneh :        **
-
-[soleabay2009@gmail.com](mailto:soleabay2009@gmail.com), Mehal Medda Hospital, Amhara; +251-913217560
-
-**3. Debele Soboka +251-912065803; Abomssa Hospital Oromia**
-
-**4. Birtukuan Bizuayehu: +251-923833345, Oromia**
-
-**5. Melese Takele; Sekota hospital Amhara region,**
-
-**+251-913725145, email: contactmelese@gmail.com**
+**Melese Takele**    
++251-913725145  
+[contactmelese@gmail.com](mailto:contactmelese@gmail.com)  
+Sekota hospital Amhara region
