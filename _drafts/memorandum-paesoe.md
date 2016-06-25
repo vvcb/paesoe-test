@@ -1,7 +1,8 @@
 ## Emergency Surgical Officers Association of Ethiopia (ESOAE)
 ### August 25-26, 2013
 ### Mekelle, Ethiopia
-Table of contents
+
+**Table of contents**
 
 1. Introduction
 2. Memorandum of the association
@@ -19,18 +20,20 @@ Table of contents
 11. Meetings of the association
 12. List of members and contact addresses
 
-# Introduction
-
-
-# Emergency surgical Officers association of Ethiopia
+### 1. Introduction
+#### Emergency surgical Officers association of Ethiopia
 
 The scarcity of human power for health in Ethiopia especially in the area of maternal health and surgical care has been a daunting challenge up until now. Despite several attempted interventions over the years to overcome the problem, the situation is still the same as maternal health indicators tell. Maternal mortality ratio of our country has even increased by 3 per 100 000 live births from what was estimated in 2005. Evidence proves that the human workforce is essential for the health system and proves that the health system improves drastically with improvements on all categories of health care.
 
 Our country is a host of 90 million citizens and hence needs more health professionals and clinicians of our category. We are highly appreciative to our government to open this program and enjoy the life time practice of medicine; equally, we are appreciative that the yearly intake of all categories of higher health professionals (speciality training) by medical faculties has tremendously increased to improve the output of qualified health professional.
 
-Delegation of major obstetric and surgical procedures, especially emergency has been in practice in Ethiopia for a long time involving health officers, field surgeons, and other health personnel since the beginning the 17 years (1975 through 1991) civil war in the country. During those times, field surgeons and health officers were doing trauma and war surgery essentially. They were also helping obstetric patients who were in need of surgical interventions. After the end of the civil war, the MoH of Ethiopia along with donor agents had been training health officers in emergency surgery and obstetrics for six months. This training was uneven and of poor quality with respect to skills acquired and decision making and had phased out shortly. Lack of emergency surgical and obstetric care in rural districts of Ethiopia is still a major problem to address the daunting challenge of maternal mortality. Understanding the huge unmet need of CEmOC and serious shortage of trained doctors in surgery and obstetrics, in 2008, the MoH and MoE of Ethiopia jointly developed a curriculum at masters&#39; degree level to train Health Officers in Emergency Surgery and Obstetrics for a two years&#39; intensive course and one year internship to produce 1000 competent Emergency Surgical Officers in 5 years. In January 2009 the first ever intake (25 Health officers) of trainees was launched in Mekelle University. Currently 10 universities are conducting the training (Mekelle, Jimma, Hawassa, Harramaya, Gonder and Wollo, Addis Ababa university St. Paul Millennium school of Medicine, Mizan Tepi ,Adama, and Arbaminch universities) with more than 200 candidates enrolled. The integrated emergency surgery and obstetric training is offered by the medical faculties of the universities. So far over 185 Emergency surgical officers have graduated from five universities with Mekelle, Jimma and Hawassa graduating twice and Gondar and Harramaya once each. These new surgical officers are posted in remote rural district hospitals of the country. These NCPs are now performing major surgeries and obstetric interventions like caesarean sections, hysterectomies, instrumental vaginal deliveries and laparotomies. And this has improved the availability of CEmOC in the rural districts where they are serving.
+Delegation of major obstetric and surgical procedures, especially emergency has been in practice in Ethiopia for a long time involving health officers, field surgeons, and other health personnel since the beginning the 17 years (1975 through 1991) civil war in the country. During those times, field surgeons and health officers were doing trauma and war surgery essentially. They were also helping obstetric patients who were in need of surgical interventions. After the end of the civil war, the MoH of Ethiopia along with donor agents had been training health officers in emergency surgery and obstetrics for six months. This training was uneven and of poor quality with respect to skills acquired and decision making and had phased out shortly. Lack of emergency surgical and obstetric care in rural districts of Ethiopia is still a major problem to address the daunting challenge of maternal mortality. 
 
-Even so, the road to successful implementation of task shifting is not smooth. There are numerous obstacles facing this program in Ethiopia:   resistance from many physicians from prestigious point of view, poor facility readiness, shortage of anaesthetists, midwives, shortage of supplies, and poor incentive package to the emergency surgical officers and lack of future career path. Understanding the importance of these categories of cadres in the health taskforce, the MOH of Ethiopia is undertaking rapid and intensive upgrading and renovation of health centers to make primary hospitals in Weredas (Sub-districts) of the country. It is also working on improvement of incentive packages to retain these ESOs at remote rural hospitals.
+Understanding the huge unmet need of CEmOC and serious shortage of trained doctors in surgery and obstetrics, in 2008, the MoH and MoE of Ethiopia jointly developed a curriculum at masters&#39; degree level to train Health Officers in Emergency Surgery and Obstetrics for a two years&#39; intensive course and one year internship to produce 1000 competent Emergency Surgical Officers in 5 years. In January 2009 the first ever intake (25 Health officers) of trainees was launched in Mekelle University. Currently 10 universities are conducting the training (Mekelle, Jimma, Hawassa, Harramaya, Gonder and Wollo, Addis Ababa university St. Paul Millennium school of Medicine, Mizan Tepi ,Adama, and Arbaminch universities) with more than 200 candidates enrolled. 
+
+The integrated emergency surgery and obstetric training is offered by the medical faculties of the universities. So far over 185 Emergency surgical officers have graduated from five universities with Mekelle, Jimma and Hawassa graduating twice and Gondar and Harramaya once each. These new surgical officers are posted in remote rural district hospitals of the country. These NCPs are now performing major surgeries and obstetric interventions like caesarean sections, hysterectomies, instrumental vaginal deliveries and laparotomies. And this has improved the availability of CEmOC in the rural districts where they are serving.
+
+Even so, the road to successful implementation of task shifting is not smooth. There are numerous obstacles facing this program in Ethiopia:  resistance from many physicians from prestigious point of view, poor facility readiness, shortage of anaesthetists, midwives, shortage of supplies, and poor incentive package to the emergency surgical officers and lack of future career path. Understanding the importance of these categories of cadres in the health taskforce, the MOH of Ethiopia is undertaking rapid and intensive upgrading and renovation of health centers to make primary hospitals in Weredas (Sub-districts) of the country. It is also working on improvement of incentive packages to retain these ESOs at remote rural hospitals.
 
 In the era of countdown to 2015 MDGs, task shifting has withstood the test of time as an effective and viable alternative in providing CEmOC services where there is obviously a huge shortage of trained specialists in the field, less than 600 obstetricians and surgeons combined for 90 million Ethiopians. In light of this fact, the training of emergency surgical officers in Ethiopia can be taken as a big step towards meeting the demand of appropriately trained health task force for CEmOC and is a timely lesson for countries with similar problems.
 
@@ -38,7 +41,7 @@ We strongly believe that we are in the right time to act and work together to ma
 
 ESO definition: ESO defines an advanced associate clinician who is registered as &quot;Emergency Surgical Officer&quot; who has completed a graduate degree MSc in Integrated Emergency General surgery, Obstetrics &amp; Gynaecology (IEGSOG curriculum, 2009). The advanced associate registered practitioner assumes responsibility and accountability for diagnosis and management of emergency general surgical, obstetric and Gynaecologic conditions. ESO are not only limited to patient centered clinical activities but also, can conduct research activities, responsibility to train and educate their fellow colleagues and also in consultation and leadership.
 
-1. **Memorandum of the association**
+### 2. Memorandum of the association
 
 2.1. Name of the association
 
