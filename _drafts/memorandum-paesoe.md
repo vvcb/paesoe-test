@@ -29,7 +29,7 @@ Our country is a host of 90 million citizens and hence needs more health profess
 
 Delegation of major obstetric and surgical procedures, especially emergency has been in practice in Ethiopia for a long time involving health officers, field surgeons, and other health personnel since the beginning the 17 years (1975 through 1991) civil war in the country. During those times, field surgeons and health officers were doing trauma and war surgery essentially. They were also helping obstetric patients who were in need of surgical interventions. After the end of the civil war, the MoH of Ethiopia along with donor agents had been training health officers in emergency surgery and obstetrics for six months. This training was uneven and of poor quality with respect to skills acquired and decision making and had phased out shortly. Lack of emergency surgical and obstetric care in rural districts of Ethiopia is still a major problem to address the daunting challenge of maternal mortality. 
 
-Understanding the huge unmet need of CEmOC and serious shortage of trained doctors in surgery and obstetrics, in 2008, the MoH and MoE of Ethiopia jointly developed a curriculum at masters&#39; degree level to train Health Officers in Emergency Surgery and Obstetrics for a two years&#39; intensive course and one year internship to produce 1000 competent Emergency Surgical Officers in 5 years. In January 2009 the first ever intake (25 Health officers) of trainees was launched in Mekelle University. Currently 10 universities are conducting the training (Mekelle, Jimma, Hawassa, Harramaya, Gonder and Wollo, Addis Ababa university St. Paul Millennium school of Medicine, Mizan Tepi ,Adama, and Arbaminch universities) with more than 200 candidates enrolled. 
+Understanding the huge unmet need of CEmOC and serious shortage of trained doctors in surgery and obstetrics, in 2008, the MoH and MoE of Ethiopia jointly developed a curriculum at masters degree level to train Health Officers in Emergency Surgery and Obstetrics for a two years intensive course and one year internship to produce 1000 competent Emergency Surgical Officers in 5 years. In January 2009 the first ever intake (25 Health officers) of trainees was launched in Mekelle University. Currently 10 universities are conducting the training (Mekelle, Jimma, Hawassa, Harramaya, Gonder and Wollo, Addis Ababa university St. Paul Millennium school of Medicine, Mizan Tepi ,Adama, and Arbaminch universities) with more than 200 candidates enrolled. 
 
 The integrated emergency surgery and obstetric training is offered by the medical faculties of the universities. So far over 185 Emergency surgical officers have graduated from five universities with Mekelle, Jimma and Hawassa graduating twice and Gondar and Harramaya once each. These new surgical officers are posted in remote rural district hospitals of the country. These NCPs are now performing major surgeries and obstetric interventions like caesarean sections, hysterectomies, instrumental vaginal deliveries and laparotomies. And this has improved the availability of CEmOC in the rural districts where they are serving.
 
@@ -43,13 +43,13 @@ ESO definition: ESO defines an advanced associate clinician who is registered as
 
 ### 2. Memorandum of the association
 
-2.1. Name of the association
+#### 2.1. Name of the association
 
- The association is called _Emergency Surgical officers association of Ethiopia_, abbreviated as &quot;ESOAE&quot;.
+The association is called _Emergency Surgical officers association of Ethiopia_, abbreviated as "ESOAE".
 
-          2.2. **Objectives of the association**
+#### 2.2. Objectives of the association
 
-- To keep all Emergency surgical Officers of Ethiopia closely knit and in constant touch with each other and build a spirit of unity for a common goal: &quot; **improve quality and accessible obstetric and emergency surgical care for the most rural poor population of our country**&quot;.
+- To keep all Emergency surgical Officers of Ethiopia closely knit and in constant touch with each other and build a spirit of unity for a     common goal: _"improve quality and accessible obstetric and emergency surgical care for the most rural poor population of our country"_.
 - To create, associate or co-operate with any other societies or associations having similar objectives locally or internationally.
 - To facilitate continued medical education, PhD, Medical speciality locally or internationally for members of ESOAE.
 - To facilitate clinical scholarship, sharing of evidence-based best clinical practice
@@ -62,43 +62,41 @@ ESO definition: ESO defines an advanced associate clinician who is registered as
 - To assist to remain competent and current in the practice of medicine.
 - To represent ourselves in the health system of our country and to enable our voices heard to safeguard our welfare.
 
-**2.3. Rules of the association**
+#### 2.3. Rules of the association
 
-2.3.1. **Member**
+**2.3.1. Member**
 
-The association&#39;s members shall consist of all ESO working in emergency surgery and obstetrics in priority hospitals and upgraded health centers chosen by MOH or Health Bureaus of Regions. Anyone outside clinical activity like; NGOs, private practice is not legible to become member of our association.
+The association's members shall consist of all ESO working in emergency surgery and obstetrics in priority hospitals and upgraded health centers chosen by MOH or Health Bureaus of Regions. Anyone outside clinical activity like; NGOs, private practice is not legible to become member of our association.
 
-2.3.2. **Register of Members**
+**2.3.2. Register of Members**
 
 The names, contact addresses, year and university of graduation shall be listed and the registration will be kept up dated periodically. ESO student members can also be registered.
 
-2.3.3. **Office bearers of the Association**
+**2.3.3. Office bearers of the Association**
 
- The associations&#39; office bearers shall be the president of the association, the vice-president of the association, secretary and liaison personnel
+The associations office bearers shall be the president of the association, the vice-president of the association, secretary and liaison personnel
 
-2.3.4. **Meetings**
+**2.3.4. Meetings**
 
 The association will have annual general assembly by which performance, financial flow, research works, clinical experience sharing and different topics will be discussed. Venue of meetings will be decided up on the preceding annual congress. The peer review and financial standing committees will have their meetings as required quarterly.
 
-
-
-2.3.5. **Finance standing committee**
+**2.3.5. Finance standing committee**
 
 The purpose of finance standing committee is primarily to run all the available financial and material wealth that can be acquired from ministry of Health or any local or international donor/sponsor with clear flow and to prevent any act of fraud. The finance standing committee will also have mandate to look at and propose financial grants for problem solving scientific original interventional research projects and allowances for relevant trainings.
 
-2.3.6. **Scientific Peer review Committee**
+**2.3.6. Scientific Peer review Committee**
 
 The association will have at least five scientific peer review committee members of which one will be a Biostatistician. The other four will be ESO or beyond who have at least two publications in a peer reviewed journal. The role of the SPRC will be to look at relevant; i.e. maternal health and emergency surgery article proposals for research grants, review papers for originality, scientific, and value, and ethics before publication on the yearly journal of the association
 
-2.3.7 **. Journal of the association**
+**2.3.7. Journal of the association**
 
-ESOAE will have its own yearly journal up on which update of maternal health and emergency surgical care of our country status will be displayed, peer-reviewed scientific articles will be published, best practices and evidence-based medical experiences will be shared among many other things. The journal will be named as&quot; **Journal of Obstetrics and Emergency Surgery**&quot; with a background logo of **&quot;promoting quality service to the under-served&quot;**
+ESOAE will have its own yearly journal up on which update of maternal health and emergency surgical care of our country status will be displayed, peer-reviewed scientific articles will be published, best practices and evidence-based medical experiences will be shared among many other things. The journal will be named as _"Journal of Obstetrics and Emergency Surgery"_ with a background logo of _"promoting quality service to the under-served"_.
 
-2.3.8. **Affiliation of the association**
+**2.3.8. Affiliation of the association**
 
 The association will be an affiliate member of Ethiopian medical association under the auspices of Ministry of Health of Ethiopia after an official grant of green light as a formal registered non profit making domestic professional association by ministry of justice.
 
-2.4 **. Head office**
+**2.4. Head office**
 
 The head quarters of the associations will be at Mekelle at present and will shift to Addis Ababa as logistic and financial capabilities permit.
 
