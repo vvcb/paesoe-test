@@ -3,7 +3,7 @@ layout: default
 title: Home
 menu_order: 0
 ---
-Welcome to the Professional Association of Integrated Emergency Surgery Officers of Ethiopia.
+Welcome to the Professional Association of Emergency Surgery Officers of Ethiopia.
 
 Surgical and obstetric emergencies are a major cause of death in Ethiopia. 
 Maternal and infant mortality from perinatal complications remain unacceptably high. 
