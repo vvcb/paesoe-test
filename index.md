@@ -14,6 +14,6 @@ The Ethiopian Government and [Ministry of Health](http://moh.gov.et) recognised 
 ### Recent posts
 {% for post in site.posts limit:5 %}
 
-[{{ post.title }}]({{ site.baseurl }}{{ post.url }})
+[{{ post.date | date: "%Y.%m.%d" }} {{ post.title }}]({{ site.baseurl }}{{ post.url }})
     
 {% endfor %}
