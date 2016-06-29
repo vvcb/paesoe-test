@@ -2,23 +2,20 @@
 ### August 25-26, 2013
 ### Mekelle, Ethiopia
 
-Table of contents
+### Table of contents
 
-1. Introduction
-2. Memorandum of the association
-  2.1. Name of the association
-  2.2. Objectives of the association
-  2.3. Rules of the association
-3. Office bearers of the association
-4. Duties and powers of the office bearers
-5. Head office
-6. Membership
-7. Journal of the association
-8. Affiliation of the association
-9. Research peer review committee
-10. Finance standing committee
-11. Meetings of the association
-12. List of members and contact addresses
+Introduction
+Name of the association
+Objectives of the association
+Rules of the association
+Meetings
+Finance standing committee
+Scientific Peer review Committee
+Journal of the association
+Affiliation of the association
+Head office
+List of members of ESOAE
+Steering committee members
 
 ### Introduction
 
