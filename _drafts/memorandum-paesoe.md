@@ -2,7 +2,7 @@
 ### August 25-26, 2013
 ### Mekelle, Ethiopia
 
-**Table of contents**
+Table of contents
 
 1. Introduction
 2. Memorandum of the association
@@ -64,35 +64,35 @@ The association is called _Emergency Surgical officers association of Ethiopia_,
 
 #### Rules of the association
 
-** Member**
+### Member
 
 The association's members shall consist of all ESO working in emergency surgery and obstetrics in priority hospitals and upgraded health centers chosen by MOH or Health Bureaus of Regions. Anyone outside clinical activity like; NGOs, private practice is not legible to become member of our association.
 
-** Register of Members**
+### Register of Members
 
 The names, contact addresses, year and university of graduation shall be listed and the registration will be kept up dated periodically. ESO student members can also be registered.
 
-** Office bearers of the Association**
+### Office bearers of the Association
 
 The associations office bearers shall be the president of the association, the vice-president of the association, secretary and liaison personnel
 
-** Meetings**
+### Meetings
 
 The association will have annual general assembly by which performance, financial flow, research works, clinical experience sharing and different topics will be discussed. Venue of meetings will be decided up on the preceding annual congress. The peer review and financial standing committees will have their meetings as required quarterly.
 
-** Finance standing committee**
+### Finance standing committee
 
 The purpose of finance standing committee is primarily to run all the available financial and material wealth that can be acquired from ministry of Health or any local or international donor/sponsor with clear flow and to prevent any act of fraud. The finance standing committee will also have mandate to look at and propose financial grants for problem solving scientific original interventional research projects and allowances for relevant trainings.
 
-** Scientific Peer review Committee**
+### Scientific Peer review Committee
 
 The association will have at least five scientific peer review committee members of which one will be a Biostatistician. The other four will be ESO or beyond who have at least two publications in a peer reviewed journal. The role of the SPRC will be to look at relevant; i.e. maternal health and emergency surgery article proposals for research grants, review papers for originality, scientific, and value, and ethics before publication on the yearly journal of the association
 
-** Journal of the association**
+### Journal of the association
 
 ESOAE will have its own yearly journal up on which update of maternal health and emergency surgical care of our country status will be displayed, peer-reviewed scientific articles will be published, best practices and evidence-based medical experiences will be shared among many other things. The journal will be named as _"Journal of Obstetrics and Emergency Surgery"_ with a background logo of _"promoting quality service to the under-served"_.
 
-** Affiliation of the association**
+### Affiliation of the association
 
 The association will be an affiliate member of Ethiopian medical association under the auspices of Ministry of Health of Ethiopia after an official grant of green light as a formal registered non profit making domestic professional association by ministry of justice.
 
@@ -240,25 +240,25 @@ NB. The list is not complete. There are 52 ESO missing and their contact address
 
 #### Steering committee members
 
-**Goitom Berhane Haileselassie**  
+Goitom Berhane Haileselassie###  
 +251-914725005  
 [goitombh@yahoo.com](mailto:goitombh@yahoo.com)  
 Korem District Hospital
 
-**Solomon Abayneh**  
+Solomon Abayneh###  
 +251-913217560  
 [soleabay2009@gmail.com](mailto:soleabay2009@gmail.com)  
 Mehal Medda Hospital, Amhara
 
-**Debele Soboka**  
+Debele Soboka###  
 +251-912065803  
 Abomssa Hospital, Oromia
 
-**Birtukuan Bizuayehu**  
+Birtukuan Bizuayehu###  
 +251-923833345  
 Oromia
 
-**Melese Takele**    
+Melese Takele###    
 +251-913725145  
 [contactmelese@gmail.com](mailto:contactmelese@gmail.com)  
 Sekota hospital Amhara region
