@@ -21,7 +21,6 @@ Table of contents
 12. List of members and contact addresses
 
 ### Introduction
-#### Emergency surgical Officers association of Ethiopia
 
 The scarcity of human power for health in Ethiopia especially in the area of maternal health and surgical care has been a daunting challenge up until now. Despite several attempted interventions over the years to overcome the problem, the situation is still the same as maternal health indicators tell. Maternal mortality ratio of our country has even increased by 3 per 100 000 live births from what was estimated in 2005. Evidence proves that the human workforce is essential for the health system and proves that the health system improves drastically with improvements on all categories of health care.
 
@@ -41,13 +40,11 @@ We strongly believe that we are in the right time to act and work together to ma
 
 ESO definition: ESO defines an advanced associate clinician who is registered as &quot;Emergency Surgical Officer&quot; who has completed a graduate degree MSc in Integrated Emergency General surgery, Obstetrics &amp; Gynaecology (IEGSOG curriculum, 2009). The advanced associate registered practitioner assumes responsibility and accountability for diagnosis and management of emergency general surgical, obstetric and Gynaecologic conditions. ESO are not only limited to patient centered clinical activities but also, can conduct research activities, responsibility to train and educate their fellow colleagues and also in consultation and leadership.
 
-### Memorandum of the association
-
-#### Name of the association
+### Name of the association
 
 The association is called _Emergency Surgical officers association of Ethiopia_, abbreviated as "ESOAE".
 
-#### Objectives of the association
+### Objectives of the association
 
 - To keep all Emergency surgical Officers of Ethiopia closely knit and in constant touch with each other and build a spirit of unity for a     common goal: _"improve quality and accessible obstetric and emergency surgical care for the most rural poor population of our country"_.
 - To create, associate or co-operate with any other societies or associations having similar objectives locally or internationally.
@@ -62,17 +59,17 @@ The association is called _Emergency Surgical officers association of Ethiopia_,
 - To assist to remain competent and current in the practice of medicine.
 - To represent ourselves in the health system of our country and to enable our voices heard to safeguard our welfare.
 
-#### Rules of the association
+### Rules of the association
 
-### Member
+#### Members
 
 The association's members shall consist of all ESO working in emergency surgery and obstetrics in priority hospitals and upgraded health centers chosen by MOH or Health Bureaus of Regions. Anyone outside clinical activity like; NGOs, private practice is not legible to become member of our association.
 
-### Register of Members
+#### Register of Members
 
 The names, contact addresses, year and university of graduation shall be listed and the registration will be kept up dated periodically. ESO student members can also be registered.
 
-### Office bearers of the Association
+#### Office bearers of the Association
 
 The associations office bearers shall be the president of the association, the vice-president of the association, secretary and liaison personnel
 
@@ -96,11 +93,11 @@ ESOAE will have its own yearly journal up on which update of maternal health and
 
 The association will be an affiliate member of Ethiopian medical association under the auspices of Ministry of Health of Ethiopia after an official grant of green light as a formal registered non profit making domestic professional association by ministry of justice.
 
-#### Head office
+### Head office
 
 The head quarters of the associations will be at Mekelle at present and will shift to Addis Ababa as logistic and financial capabilities permit.
 
-#### List of members of ESOAE
+### List of members of ESOAE
 
 | SN  | Full Name            | University | Phone      | Working Post     |
 |-----|----------------------|------------|------------|------------------|
@@ -238,7 +235,7 @@ The head quarters of the associations will be at Mekelle at present and will shi
 
 NB. The list is not complete. There are 52 ESO missing and their contact addresses and working places. We are still working on it.
 
-#### Steering committee members
+### Steering committee members
 
 Goitom Berhane Haileselassie###  
 +251-914725005  
