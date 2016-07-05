@@ -248,25 +248,25 @@ NB. The list is not complete. There are 52 ESO missing and their contact address
 <a name="Steering comittee members"></a>
 ### Steering committee members
 
-Goitom Berhane Haileselassie###  
+Goitom Berhane Haileselassie  
 +251-914725005  
 [goitombh@yahoo.com](mailto:goitombh@yahoo.com)  
 Korem District Hospital
 
-Solomon Abayneh###  
+Solomon Abayneh  
 +251-913217560  
 [soleabay2009@gmail.com](mailto:soleabay2009@gmail.com)  
 Mehal Medda Hospital, Amhara
 
-Debele Soboka###  
+Debele Soboka  
 +251-912065803  
 Abomssa Hospital, Oromia
 
-Birtukuan Bizuayehu###  
+Birtukuan Bizuayehu  
 +251-923833345  
 Oromia
 
-Melese Takele###    
+Melese Takele    
 +251-913725145  
 [contactmelese@gmail.com](mailto:contactmelese@gmail.com)  
 Sekota hospital Amhara region
