@@ -11,22 +11,19 @@ A list of links to useful websites and resources. This page will be periodically
 
 ---
 
-<a name="E-books"></a>
-### E-books
+### <a name="E-books"></a>E-books
 
 - [Surgical Care at the District Hospital](http://www.who.int/surgery/publications/en/SCDH.pdf)
 - [Critical Care Handbook for Global Surgery](http://www.albacccd.com)
 - [Global Library of Women's Medicine](http://www.glowm.com/) - many free ebooks available on this site
 
-<a name="Important organisations"></a>
-### Important organisations
+### <a name="Important organisations"></a>Important organisations
 
 - [Ethiopian Ministry of Health](http://www.moh.gov.et/home) ([Twitter](http://twitter.com/FMoHealth),  [Facebook](http://www.facebook.com/EthiopiaFMoH))
 - [World Health Organisation - Ethiopia](http://www.who.int/countries/eth/en/)
 - [WHO Emergency and Essential Surgical Care](http://www.who.int/surgery/en/)
 
-<a name="NGOs in Ethiopia"></a>
-### NGOs in Ethiopia
+### <a name="NGOs in Ethiopia"></a>NGOs in Ethiopia
 
 #### Related to surgery
 
