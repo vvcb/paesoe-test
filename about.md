@@ -244,7 +244,7 @@ The head quarters of the associations will be at Mekelle at present and will shi
 
 NB. The list is not complete. There are 52 ESO missing and their contact addresses and working places. We are still working on it.
 
-### <a name="Steering comittee members"></a>Steering committee members
+### <a name="Steering committee members"></a>Steering committee members
 
 Goitom Berhane Haileselassie  
 +251-914725005  
