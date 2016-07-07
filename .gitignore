@@ -1,3 +1,7 @@
+#
+CNAME
+google*.html
+
 # Ignore docs files
 _gh_pages
 _site
