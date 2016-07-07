@@ -2,27 +2,23 @@
 ### August 25-26, 2013
 ### Mekelle, Ethiopia
 
-**Table of contents**
+### Table of contents
 
-1. Introduction
-2. Memorandum of the association
-  2.1. Name of the association
-  2.2. Objectives of the association
-  2.3. Rules of the association
-3. Office bearers of the association
-4. Duties and powers of the office bearers
-5. Head office
-6. Membership
-7. Journal of the association
-8. Affiliation of the association
-9. Research peer review committee
-10. Finance standing committee
-11. Meetings of the association
-12. List of members and contact addresses
+- [Introduction](#Introduction)
+- [Name of the association](#Name of the association)
+- [Objectives of the association](#Objectives of the association)
+- [Rules of the association](#Rules of the association)
+- [Meetings](#Meetings)
+- [Finance standing committee](#Finance standing committee)
+- [Scientific Peer review Committee](#Scientific Peer review Committee)
+- [Journal of the association](#Journal of the association)
+- [Affiliation of the association](#Affiliation of the association)
+- [Head office](#Head Office)
+- [List of members of ESOAE](#List of members of ESOAE)
+- [Steering committee members](#Steering committee members)
 
-### 1. Introduction
-#### Emergency surgical Officers association of Ethiopia
-
+<a name="Introduction"></a>
+### Introduction
 The scarcity of human power for health in Ethiopia especially in the area of maternal health and surgical care has been a daunting challenge up until now. Despite several attempted interventions over the years to overcome the problem, the situation is still the same as maternal health indicators tell. Maternal mortality ratio of our country has even increased by 3 per 100 000 live births from what was estimated in 2005. Evidence proves that the human workforce is essential for the health system and proves that the health system improves drastically with improvements on all categories of health care.
 
 Our country is a host of 90 million citizens and hence needs more health professionals and clinicians of our category. We are highly appreciative to our government to open this program and enjoy the life time practice of medicine; equally, we are appreciative that the yearly intake of all categories of higher health professionals (speciality training) by medical faculties has tremendously increased to improve the output of qualified health professional.
@@ -41,13 +37,14 @@ We strongly believe that we are in the right time to act and work together to ma
 
 ESO definition: ESO defines an advanced associate clinician who is registered as &quot;Emergency Surgical Officer&quot; who has completed a graduate degree MSc in Integrated Emergency General surgery, Obstetrics &amp; Gynaecology (IEGSOG curriculum, 2009). The advanced associate registered practitioner assumes responsibility and accountability for diagnosis and management of emergency general surgical, obstetric and Gynaecologic conditions. ESO are not only limited to patient centered clinical activities but also, can conduct research activities, responsibility to train and educate their fellow colleagues and also in consultation and leadership.
 
-### 2. Memorandum of the association
-
-#### 2.1. Name of the association
+<a name="Name of the association"></a>
+### Name of the association  
 
 The association is called _Emergency Surgical officers association of Ethiopia_, abbreviated as "ESOAE".
 
-#### 2.2. Objectives of the association
+<a name="Objectives of the association"></a>
+### Objectives of the association 
+
 
 - To keep all Emergency surgical Officers of Ethiopia closely knit and in constant touch with each other and build a spirit of unity for a     common goal: _"improve quality and accessible obstetric and emergency surgical care for the most rural poor population of our country"_.
 - To create, associate or co-operate with any other societies or associations having similar objectives locally or internationally.
@@ -62,45 +59,55 @@ The association is called _Emergency Surgical officers association of Ethiopia_,
 - To assist to remain competent and current in the practice of medicine.
 - To represent ourselves in the health system of our country and to enable our voices heard to safeguard our welfare.
 
-#### 2.3. Rules of the association
+<a name="Rules of the association"></a>
+### Rules of the association 
 
-**2.3.1. Member**
+
+#### Members
 
 The association's members shall consist of all ESO working in emergency surgery and obstetrics in priority hospitals and upgraded health centers chosen by MOH or Health Bureaus of Regions. Anyone outside clinical activity like; NGOs, private practice is not legible to become member of our association.
 
-**2.3.2. Register of Members**
+#### Register of Members
 
 The names, contact addresses, year and university of graduation shall be listed and the registration will be kept up dated periodically. ESO student members can also be registered.
 
-**2.3.3. Office bearers of the Association**
+#### Office bearers of the Association
 
 The associations office bearers shall be the president of the association, the vice-president of the association, secretary and liaison personnel
 
-**2.3.4. Meetings**
+<a name="Meetings"></a>
+### Meetings 
 
 The association will have annual general assembly by which performance, financial flow, research works, clinical experience sharing and different topics will be discussed. Venue of meetings will be decided up on the preceding annual congress. The peer review and financial standing committees will have their meetings as required quarterly.
 
-**2.3.5. Finance standing committee**
+<a name="Finance standing commitee"></a>
+### Finance standing committee 
 
 The purpose of finance standing committee is primarily to run all the available financial and material wealth that can be acquired from ministry of Health or any local or international donor/sponsor with clear flow and to prevent any act of fraud. The finance standing committee will also have mandate to look at and propose financial grants for problem solving scientific original interventional research projects and allowances for relevant trainings.
 
-**2.3.6. Scientific Peer review Committee**
+<a name="Scientific Peer review Committee"></a>
+### Scientific Peer review Committee 
 
 The association will have at least five scientific peer review committee members of which one will be a Biostatistician. The other four will be ESO or beyond who have at least two publications in a peer reviewed journal. The role of the SPRC will be to look at relevant; i.e. maternal health and emergency surgery article proposals for research grants, review papers for originality, scientific, and value, and ethics before publication on the yearly journal of the association
 
-**2.3.7. Journal of the association**
+<a name="Journal of the association"></a>
+### Journal of the association 
 
 ESOAE will have its own yearly journal up on which update of maternal health and emergency surgical care of our country status will be displayed, peer-reviewed scientific articles will be published, best practices and evidence-based medical experiences will be shared among many other things. The journal will be named as _"Journal of Obstetrics and Emergency Surgery"_ with a background logo of _"promoting quality service to the under-served"_.
 
-**2.3.8. Affiliation of the association**
+<a name="Affiliation of the association"></a>
+### Affiliation of the association 
 
 The association will be an affiliate member of Ethiopian medical association under the auspices of Ministry of Health of Ethiopia after an official grant of green light as a formal registered non profit making domestic professional association by ministry of justice.
 
-#### 2.4. Head office
+<a name="Head office"></a>
+### Head office 
 
 The head quarters of the associations will be at Mekelle at present and will shift to Addis Ababa as logistic and financial capabilities permit.
 
-#### List of members of ESOAE
+<a name="List of members of ESOAE"></a>
+### List of members of ESOAE 
+
 
 | SN  | Full Name            | University | Phone      | Working Post     |
 |-----|----------------------|------------|------------|------------------|
@@ -238,27 +245,28 @@ The head quarters of the associations will be at Mekelle at present and will shi
 
 NB. The list is not complete. There are 52 ESO missing and their contact addresses and working places. We are still working on it.
 
-#### Steering committee members
+<a name="Steering comittee members"></a>
+### Steering committee members
 
-**Goitom Berhane Haileselassie**  
+Goitom Berhane Haileselassie  
 +251-914725005  
 [goitombh@yahoo.com](mailto:goitombh@yahoo.com)  
 Korem District Hospital
 
-**Solomon Abayneh**  
+Solomon Abayneh  
 +251-913217560  
 [soleabay2009@gmail.com](mailto:soleabay2009@gmail.com)  
 Mehal Medda Hospital, Amhara
 
-**Debele Soboka**  
+Debele Soboka  
 +251-912065803  
 Abomssa Hospital, Oromia
 
-**Birtukuan Bizuayehu**  
+Birtukuan Bizuayehu  
 +251-923833345  
 Oromia
 
-**Melese Takele**    
+Melese Takele    
 +251-913725145  
 [contactmelese@gmail.com](mailto:contactmelese@gmail.com)  
 Sekota hospital Amhara region
