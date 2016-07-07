@@ -58,13 +58,3 @@ Please get in touch with your own inspiring stories or suggestions. We look forw
         </div>
     </fieldset>
 </form>
-
-Alternatively, you can call us or visit us.
-
-Professional Association of Emergency Surgical Officers of Ethiopia  
-Room Number 2, 6th Floor, Genet Commercial Building  
-Megenagna, Yeka Subcity  
-Addis Ababa
-
-Email: [emergencysurgery2000@gmail.com](mailto:emergencysurgery2000@gmail.com)  
-Phone: +251 913 725145

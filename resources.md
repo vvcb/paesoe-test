@@ -6,26 +6,35 @@ menu_order: 20
 
 A list of links to useful websites and resources. This page will be periodically updated to add new information. Please [let us know]({{ site.baseurl }}/contact) if we can improve this list or if any of the links do not work.
 
+<<<<<<< HEAD
 ---
 [E-books](#E-books) | [Important organisations](#Important organisations) | [NGOs in Ethiopia](#NGOs in Ethiopia)
 
 ---
 
 <a name="E-books"></a>
+=======
+>>>>>>> master
 ### E-books
 
 - [Surgical Care at the District Hospital](http://www.who.int/surgery/publications/en/SCDH.pdf)
 - [Critical Care Handbook for Global Surgery](http://www.albacccd.com)
 - [Global Library of Women's Medicine](http://www.glowm.com/) - many free ebooks available on this site
 
+<<<<<<< HEAD
 <a name="Important organisations"></a>
+=======
+>>>>>>> master
 ### Important organisations
 
 - [Ethiopian Ministry of Health](http://www.moh.gov.et/home) ([Twitter](http://twitter.com/FMoHealth),  [Facebook](http://www.facebook.com/EthiopiaFMoH))
 - [World Health Organisation - Ethiopia](http://www.who.int/countries/eth/en/)
 - [WHO Emergency and Essential Surgical Care](http://www.who.int/surgery/en/)
 
+<<<<<<< HEAD
 <a name="NGOs in Ethiopia"></a>
+=======
+>>>>>>> master
 ### NGOs in Ethiopia
 
 #### Related to surgery
@@ -37,4 +46,11 @@ A list of links to useful websites and resources. This page will be periodically
 - [Operation Smile](http://www.operationsmile.org/)
 - [Gondar Eye Site](http://www.gondareyesite.com/)
 
+<<<<<<< HEAD
 [comment]: # (#### Other medical)[comment] : # (#### Non-medical)
+=======
+#### Other medical
+
+
+#### Non-medical
+>>>>>>> master
