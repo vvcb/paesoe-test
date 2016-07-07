@@ -37,7 +37,4 @@ A list of links to useful websites and resources. This page will be periodically
 - [Operation Smile](http://www.operationsmile.org/)
 - [Gondar Eye Site](http://www.gondareyesite.com/)
 
-#### Other medical
-
-
-#### Non-medical
+[comment]: # (#### Other medical)[comment] : # (#### Non-medical)
