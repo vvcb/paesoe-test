@@ -16,7 +16,7 @@ paginate:            5 #This tells Jekyll how many posts to display per page
 author:
   name:              vvcb
   url:               https://github.com/vvcb
-  email:             paieso@gmail.com
+  email:             ieso.ethiopia@gmail.com
   
 # Set the Sass partials directory, as we're using @imports
 sass:
@@ -24,3 +24,7 @@ sass:
 
 # Custom vars
 version:             0.0.1
+
+#Generate sitemap
+gems:
+  - jekyll-sitemap
