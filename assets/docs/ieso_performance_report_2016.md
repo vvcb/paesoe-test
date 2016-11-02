@@ -32,6 +32,8 @@ accessible to the majority, and their clinical decision making and surgical skil
 
 **Keywords**: decision making, emergency surgical officer, Ethiopia, surgical skill
 
+View the original article: [Ethiop J Health Sci. - Vol. 26, No. 5 September 2016](\C:\\ieso_performance_report_2016.pdf) (PDF)
+
 
 
 
