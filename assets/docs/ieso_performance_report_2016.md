@@ -4,6 +4,7 @@ title: The Clinical Performance of Emergency Surgical Officers in Southern Ethio
 ---
 
 ##### Background
+
 Serious shortage of gynecologists and surgeons for several decades leading to a threeyear
 masters level training was initiated in 2009. However, systematic analysis was not done to assess the
 graduates’ performance. The purpose of this study was to assess improvement in access to emergency
@@ -28,5 +29,9 @@ commitment to discharge their responsibilities were in the best possible.
 ##### Conclusions 
 The study showed that deployment of ESOs made the emergency surgery services
 accessible to the majority, and their clinical decision making and surgical skills were remarkable.
+
+**Keywords**: decision making, emergency surgical officer, Ethiopia, surgical skill
+
+
 
 
