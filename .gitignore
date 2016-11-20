@@ -1,6 +1,6 @@
 #
-CNAME
-google*.html
+# CNAME
+# google*.html
 
 # Ignore docs files
 _gh_pages
