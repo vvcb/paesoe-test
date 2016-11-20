@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Surgical Care at the District Hospital
+title: Stories from Ethiopia
 tags: ebooks
 comments: true
 ---
