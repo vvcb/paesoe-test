@@ -4,6 +4,11 @@ Welcome to the website of the Professional Association of Integrated Emergency S
 
 The development of this website happens at a forked repository owned by https://github.com/vvcb. If you wish to contribute, please get in touch by sending an email to ieso.ethiopia at gmail dot com. 
 
+#### IMPORTANT STUFF
+
+Note that the CNAME file needs recreating everytime a pull-request is merged. 
+Must figure out a fool-proof way of preventing this.
+
 #### Pointers for collaborators
 
 For current collaborators, these are the simple guidelines regarding workflow.
