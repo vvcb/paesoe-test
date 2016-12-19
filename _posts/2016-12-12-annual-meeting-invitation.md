@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Annual meeting invitation: 12/12/2016 - 13/12/2016
+title: Annual meeting invitation 12/12/2016 - 13/12/2016
 tags: news
 comments: true
 ---
