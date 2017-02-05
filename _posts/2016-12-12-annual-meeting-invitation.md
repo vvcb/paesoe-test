@@ -5,12 +5,9 @@ tags: news
 comments: true
 ---
 
-
-### Invitation to the 3rd annual conference of professional association for emergency surgical officers of Ethiopia (PAESOE)
-
-**December 12th - 13rd, 2016**
-
-**Kaleb Hotel, Addis Ababa, Ethiopia**
+#### Invitation to the 3 rd annual conference of professional association for emergency surgical officers of Ethiopia (PAESOE)
+##### December 12 th - 13 rd , 2016
+##### Kaleb Hotel, Addis Ababa, Ethiopia
 
 Dear all members of PAESOE,
 
