@@ -66,5 +66,5 @@ Room Number 2, 6th Floor, Genet Commercial Building
 Megenagna, Yeka Subcity  
 Addis Ababa
 
-Email: [emergencysurgery2000@gmail.com](mailto:emergencysurgery2000@gmail.com)  
+Email: [contactmelese@gmail.com](mailto:contactmelese@gmail.com)  
 Phone: +251 913 725145
