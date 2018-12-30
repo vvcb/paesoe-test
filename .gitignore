@@ -1,7 +1,17 @@
-# Ignore docs files
-_gh_pages
-_site
-.ruby-version
+# Folders to ignore
+_gh_pages/
+_site/
+vendor/
+.sass-cache/
+.bundle/
+_drafts
+
+Gemfile
+Gemfile.lock
+
+#Ignore CNAME Changes
+CNAME
+
 
 # Numerous always-ignore extensions
 *.diff
@@ -29,15 +39,8 @@ nbproject
 *.sublime-workspace
 .idea
 
-# Komodo
-*.komodoproject
-.komodotools
-
 # grunt-html-validation
 validation-status.json
 validation-report.json
 
-# Folders to ignore
-node_modules
-bower_components
 *.xcf
