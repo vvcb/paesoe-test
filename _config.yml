@@ -5,12 +5,12 @@
 permalink: /:year/:month/:day/:title
 
 # Setup
-title:               PAESOE
+title:               'PAESOE'
 tagline:             'Emergency Surgery Saves Lives'
 description:         'Professional Association of Emergency Surgery Officers in Ethiopia. Saving lives across Ethiopia through emergency obstetric, general and trauma surgery.'
 url:                 'http://paesoe.github.io'
 baseurl:             ''
-paginate:            5 #This tells Jekyll how many posts to display per page
+#paginate:            5 #This tells Jekyll how many posts to display per page
 
 # About/contact
 author:
@@ -23,8 +23,9 @@ sass:
   style: :compressed # You might prefer to minify using :compressed
 
 # Custom vars
-version:             0.0.1
+version:             0.0.2
 
 #Generate sitemap
-gems:
+plugins:
   - jekyll-sitemap
+  - jekyll-relative-links
