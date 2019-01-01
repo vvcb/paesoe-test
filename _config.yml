@@ -7,8 +7,9 @@ permalink: /:year/:month/:day/:title
 # Setup
 title:               'PAESOE'
 tagline:             'Emergency Surgery Saves Lives'
-description:         'Professional Association of Emergency Surgery Officers in Ethiopia. Saving lives across Ethiopia through emergency obstetric, general and trauma surgery.'
-url:                 'http://paesoe.github.io'
+description: > #
+  'Professional Association of Emergency Surgery Officers in Ethiopia. Saving lives across Ethiopia through emergency obstetric, general and trauma surgery.'
+url:                 'http://paesoe.github.io/v2'
 baseurl:             ''
 #paginate:            5 #This tells Jekyll how many posts to display per page
 
@@ -25,7 +26,163 @@ sass:
 # Custom vars
 version:             0.0.2
 
-#Generate sitemap
+# Jekyll plugins
 plugins:
   - jekyll-sitemap
-  - jekyll-relative-links
+  
+# prose.io config
+prose:
+  rooturl: '_posts'
+  media: 'img'
+  ignore:
+    - 404.html
+    - LICENSE
+    - feed.xml
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /css
+    - /img
+    - /js
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+          placeholder: "Title"
+          alterable: true
+      - name: "subtitle"
+        field:
+          element: "textarea"
+          label: "Subtitle"
+          placeholder: "A description of your post."
+          alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date"
+          help: "Enter date of post."
+          placeholder: "yyyy-mm-dd"
+          alterable: true
+      - name: "image"
+        field:
+          element: "text"
+          label: "Image"
+          help: "Add a thumbnail image to your post."
+          placeholder: "Thumbnail"
+          alterable: true
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Publish"
+          help: "Check to publish post, uncheck to hide."
+
+
+  ###############################################################
+# Documentation
+###############################################################
+
+# https://help.github.com/articles/configuring-jekyll-plugins/
+# Default Plugins
+# - jekyll-coffeescript
+# - jekyll-gist
+# - jekyll-github-metadata
+# - jekyll-paginate
+# - jekyll-relative-links
+# - jekyll-optional-front-matter
+# - jekyll-readme-index
+# - jekyll-default-layout
+# - jekyll-titles-from-headings
+# Optional Plugins
+#  - jekyll-feed
+#  - jekyll-redirect-from
+#  - jekyll-seo-tag
+#  - jekyll-sitemap
+#  - jekyll-avatar
+#  - jemoji
+#  - jekyll-mentions
+#  - jekyll-include-cache
+
+# Default Jekyll Configuratiion Options
+# https://jekyllrb.com/docs/configuration/default/
+
+# # Where things are
+# source              : .
+# destination         : ./_site
+# collections_dir     : .
+# plugins_dir         : _plugins
+# layouts_dir         : _layouts
+# data_dir            : _data
+# includes_dir        : _includes
+# collections:
+#   posts:
+#     output          : true
+
+# # Handling Reading
+# safe                : false
+# include             : [".htaccess"]
+# exclude             : ["Gemfile", "Gemfile.lock", "node_modules", "vendor/bundle/", "vendor/cache/", "vendor/gems/", "vendor/ruby/"]
+# keep_files          : [".git", ".svn"]
+# encoding            : "utf-8"
+# markdown_ext        : "markdown,mkdown,mkdn,mkd,md"
+# strict_front_matter : false
+
+# # Filtering Content
+# show_drafts         : null
+# limit_posts         : 0
+# future              : false
+# unpublished         : false
+
+# # Plugins
+# whitelist           : []
+# plugins             : []
+
+# # Conversion
+# markdown            : kramdown
+# highlighter         : rouge
+# lsi                 : false
+# excerpt_separator   : "\n\n"
+# incremental         : false
+
+# # Serving
+# detach              : false
+# port                : 4000
+# host                : 127.0.0.1
+# baseurl             : "" # does not include hostname
+# show_dir_listing    : false
+
+# # Outputting
+# permalink           : date
+# paginate_path       : /page:num
+# timezone            : null
+
+# quiet               : false
+# verbose             : false
+# defaults            : []
+
+# liquid:
+#   error_mode        : warn
+#   strict_filters    : false
+#   strict_variables  : false
+
+# # Markdown Processors
+# rdiscount:
+#   extensions        : []
+
+# redcarpet:
+#   extensions        : []
+
+# kramdown:
+#   auto_ids          : true
+#   entity_output     : as_char
+#   toc_levels        : 1..6
+#   smart_quotes      : lsquo,rsquo,ldquo,rdquo
+#   input             : GFM
+#   hard_wrap         : false
+#   footnote_nr       : 1
+#   show_warnings     : false
