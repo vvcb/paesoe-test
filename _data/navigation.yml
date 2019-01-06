@@ -1,0 +1,17 @@
+main_menu_title: PAESOE
+main_menu:
+
+- title: Home
+  url: /
+
+- title: Articles
+  url: /articles
+
+- title: Education
+  url: /education
+
+- title: About Us
+  url: /about
+
+- title: Contact Us
+  url: /contact
