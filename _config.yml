@@ -8,7 +8,7 @@ title: 'PAESOE'
 tagline: 'Emergency Surgery Saves Lives'
 description: > 
   'Professional Association of Emergency Surgery Officers in Ethiopia. Saving lives across Ethiopia through emergency obstetric, general and trauma surgery.'
-url: 'http://paesoe.github.io/v2'
+url: 'https://paesoe.org'
 baseurl: ''
 githubUsername: paesoe
 
@@ -38,6 +38,7 @@ version:             0.0.2
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-relative-links
   
 # prose.io config
 prose:
