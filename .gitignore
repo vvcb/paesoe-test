@@ -4,7 +4,6 @@ _site/
 vendor/
 .sass-cache/
 .bundle/
-_drafts
 
 Gemfile
 Gemfile.lock
