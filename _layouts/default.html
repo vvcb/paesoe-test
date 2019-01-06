@@ -1,21 +1,14 @@
 ---
 layout: compress
 ---
-<!doctype html>
-<html lang="en">{% include head.html %}
+<!DOCTYPE html>
+<html class="t-{{ site.themeColor }}">
+  {% include head.html %}
+  <body>
+    {% include navigation.html %}
 
-<body>
-    <div id="layout">{% include sidebar.html %}
-        <div id="main">
-            <div class="header">
-                <h1><a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a></h1>
-                <h2>{{ site.tagline }}</h2>
-            </div>
-            <div class="content">{{ content }}</div>
-        </div>
-    </div>
+    {{ content }}
+
     {% include footer.html %}
-    <script src="/public/js/ui.js"></script>
-</body>
-
+  </body>
 </html>

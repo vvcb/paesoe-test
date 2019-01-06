@@ -1,27 +1,35 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-# permalink:           pretty
-permalink: /:year/:month/:day/:title
+permalink: /:year/:month/:title
 
 # Setup
-title:               'PAESOE'
-tagline:             'Emergency Surgery Saves Lives'
-description: > #
+title: 'PAESOE'
+tagline: 'Emergency Surgery Saves Lives'
+description: > 
   'Professional Association of Emergency Surgery Officers in Ethiopia. Saving lives across Ethiopia through emergency obstetric, general and trauma surgery.'
-url:                 'http://paesoe.github.io/v2'
-baseurl:             ''
-#paginate:            5 #This tells Jekyll how many posts to display per page
+url: 'http://paesoe.github.io/v2'
+baseurl: ''
+githubUsername: paesoe
 
 # About/contact
 author:
-  name:              vvcb
-  url:               https://github.com/vvcb
-  email:             ieso.ethiopia@gmail.com
+  name: vvcb
+  url: https://github.com/vvcb
+  email: ieso.ethiopia@gmail.com
   
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :compressed # You might prefer to minify using :compressed
+
+# paginate: 5
+# paginate_path: "articles"
+markdown: kramdown
+include: [_pages]
+exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
+themeColor: green # green, blue, orange, purple, grey
+fixedNav: 'true' # true or false
+
 
 # Custom vars
 version:             0.0.2
@@ -29,6 +37,7 @@ version:             0.0.2
 # Jekyll plugins
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
   
 # prose.io config
 prose:

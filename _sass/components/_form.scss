@@ -1,0 +1,110 @@
+/* ==========================================================================
+   Form
+   ========================================================================== */
+
+   /* Variables & Mixins */
+
+.c-form { 
+  margin: 2em auto; 
+  padding:2em;
+}
+
+input, select, textarea {outline:none;}
+
+label {
+    @include fs--body;
+  margin:.2em 0 1em;
+  padding: .25em;
+  width:100%;
+}
+/* Text Input */
+input{
+  @include fs--body;
+  margin:.2em 0 1em;
+  padding: .25em;
+  width:100%;
+}
+
+/* Radio Buttons */
+fieldset {
+  margin-bottom:2em;
+  padding:.5em .5em;
+}
+
+input[type='radio'] {
+  appearance:none;
+    color:#f0f;
+  cursor:pointer;
+  height:2.5em;
+  width: 2.5em;
+  margin-top:0;
+  vertical-align:text-top;
+}
+
+input[type="radio"]:checked:after {
+    content:"\00a0";
+  display:block;
+  position:relative;
+  height:1.5em;
+  width:1.5em;
+  margin:.4em;
+}
+
+/* Dropdown Box */
+.styled-select {
+  display:inline-block;
+  cursor:pointer;
+  margin-bottom:1.5em;
+  padding:.25em 0;
+  position:relative;
+  width:100%;
+}
+
+.styled-select:before {
+  border-width: 0 0 0 1px;
+  content:'\f103';
+  padding-left:.25em;
+  position:absolute;
+  pointer-events:none;
+  right:.35em;
+}
+
+select {
+    border:none;
+    cursor:pointer;
+    display:inline-block;
+    @include fs--body;
+    margin:0; padding:0 2em 0 1em;
+    width:100%;
+}
+
+/* Text Area */
+textarea {
+  @include fs--body;
+  height:10em;
+  margin:.5em 0 1em;
+  padding:1em;
+  width:100%;
+}
+
+/* Checkbox */
+input[type='checkbox'] {
+  appearance:none;
+    cursor:pointer;
+  @include fs--body;
+  padding: .25em;
+  height:1em; width:1em;
+  vertical-align:text-top;
+}
+
+input[type='checkbox']:checked:after {
+  border-width:0 4px 4px 0;
+  content:"\00a0";
+  display:block;
+  height:1em; width:.5em;
+  margin-top:-.9em;
+  position:relative;
+  transform:rotate(45deg); 
+}
+
+
