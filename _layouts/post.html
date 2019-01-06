@@ -1,18 +1,35 @@
 ---
-layout: default
+layout: page
 ---
-<div>
-    <h2 class="content-subhead">{{ page.title }}</h2>
-    <span>{{ page.date | date_to_string }}</span>
-    {{ content }}
-</div>
-<div>
-    <h3 class="content-subhead">Related Posts</h3>
-    {% for post in site.related_posts limit:3 %}
-    <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.date | date: "%d.%m.%y" }} {{ post.title }}</a></p>
-    {% endfor %}
-</div>
-{% if page.comments %}<div id="disqus_thread"></div>
-<script>var disqus_config = function () { this.page.identifier = "{{ page.url }}", this.page.title = "{{ page.title }}" }; !function () { var e = document, t = e.createElement("script"); t.src = "//paesoe.disqus.com/embed.js", t.setAttribute("data-timestamp", +new Date), (e.head || e.body).appendChild(t) }();</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments
-        powered by Disqus.</a></noscript>{% endif %}
+{% if page.fulltitle %}
+<h3>{{page.fulltitle}}</h3>
+{% else %}
+<h3>{{page.title}}</h3>
+{% endif %}
+
+<p>
+    {% if page.previous %}
+    <a href="{{page.previous.url}}">&laquo;</a>
+    {% else %}
+    &nbsp;
+    {% endif %}
+
+    &nbsp;&nbsp;
+    <em>{{page.date | date: "%b %d, %Y" }}</em>
+    {% if page.next %}
+    &nbsp;&nbsp;
+    <a href="{{page.next.url}}">&raquo;</a>
+    {% endif %}
+    <br>
+    {% if page.author %}
+    {% assign author = site.data.members[page.author] %}
+    {% if author %}
+    <em>By: {{ author.name }}</em>
+    {% else %}
+    <em>By: {{ page.author }}</em>
+    {% endif %}
+    {% endif %}
+</p>
+
+
+{{ content }}

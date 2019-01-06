@@ -1,0 +1,38 @@
+/* ==========================================================================
+   Blue Theme
+   ========================================================================== */
+
+.t-blue {
+
+  .c-navigation,
+  .c-header {
+    background: $c__blue;
+  }
+
+  .c-article__main a:not(.c-btn) {
+    color: $c__blue;
+  }
+
+  .c-footer {
+    background: $c__light-grey;
+  }
+
+  .c-footer a {
+    color: $c__blue;
+  }
+
+
+
+  .c-form {
+    border-color:$c__blue;
+
+  }
+
+  .c-btn {
+    background:$c__blue;
+  }
+
+  .c-btn:hover {
+    background: $c__light-blue;
+  }
+}
