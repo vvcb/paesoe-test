@@ -1,11 +1,16 @@
 ---
 layout: post
-title: Annual meeting - 30/03/2016
+title: Report of 2016 Annual Meeting
+fulltitle: A brief report of the 2016 Annual Meeting of PAESOE
+author: melese
+date: 2016-03-30
 tags: news
-comments: true
+published: true
 ---
-The annual meeting of PAIESO was held on the 30th of March 2016 at [Wabi Shebelle Hotel](http://www.wabeshebellehotel.com.et/en/) in Addis Ababa. 
+The annual meeting of the Professional Association of Emergency Surgical Officers of Ethiopia was held on the 30th of March 2016 at [Wabi Shebelle Hotel](http://www.wabeshebellehotel.com.et/en/) in Addis Ababa. 
 The meeting was well attended and several ongoing issues were discussed. 
 The success of the IESOs over the past year in improving health care across the country was acknowledged and we hope to continue to improve emergency obstetric and surgical care in the years to come.
 
-![Picture taken at PAIESO Annual meeting 2016]({{ site.baseurl }}/assets/images/2016_03_30_annual_meeting_01.jpg)
+![Picture of PAESOE Panel Annual meeting in March 2016](/assets/images/2016-03-30-annual-meeting-panel.jpg))
+
+![Picture of PAESOE Audience Annual meeting in March 2016](/assets/images/2016-03-30-annual-meeting-audience.jpg))

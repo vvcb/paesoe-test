@@ -1,10 +1,12 @@
 ---
 layout: post
 title: The History of IESO MSc
-tags: news
+date: 2009-05-06
+tags: [news]
+published: true
 ---
 The MSc programme on Integrated Emergency Obstetric Surgery was initiated at Jimma, Hawassa and Mkele Universities in January 2009.
-The programme was implemented by the Ministry of Health and Ministry of Education through the three universities.
+The programme was implemented by the [Ministry of Health]({{ site.data.links.moh }}) and Ministry of Education through the three universities.
 [UNFPA](http://www.unfpa.org) contributed financial, technical and material support for the programme.
 
 The MSc programme is designed to strengthen the efforts being exerted to save mothers' lives in Ethiopia.
@@ -18,5 +20,5 @@ It has been proven that the retentian rate of these mid-level professionals has 
 UNFPA has donated several ambulances to support the MSc Programme and the Regional Health Bureaus where the programme is going to be implemented. 
 It is hoped that the ambulances will help significantly reduce mortatlity rate, particularly amongst pregnant women.
 
-For more information on the history of IESO MSc click the following link:  
-[MSc Programme on Integrated Emergency Obstetric Surgery launched](http://www.ethiopia.unfpa.org/news/msc-programme-integrated-emergency-obstetric-surgery-launched)
+For more information on the history of IESO MSc, click the following link:  
+[UNFPA Ethiopia News (6 May 2009): MSc Programme on Integrated Emergency Obstetric Surgery launched](http://ethiopia.unfpa.org/news/msc-programme-integrated-emergency-obstetric-surgery-launched)
