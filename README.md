@@ -2,28 +2,38 @@
 
 Welcome to the website of the Professional Association of Integrated Emergency Surgical Officers of Ethiopia. This GitHub repository holds the Jekyll site that is served up by GitHub Pages. 
 
-The development of this website happens at a forked repository owned by https://github.com/vvcb. If you wish to contribute, please get in touch by sending an email to ieso.ethiopia at gmail dot com. 
+## Built using ...
 
-#### IMPORTANT STUFF
+This website uses several open-source technologies. Some of them are listed below.
 
-Note that the CNAME file needs recreating everytime a pull-request is merged. 
-Must figure out a fool-proof way of preventing this.
+- http://github.com/
+- https://jekyllrb.com/
+- https://github.com/penibelst/jekyll-compress-html
+- 
+- 
 
-#### Pointers for collaborators
+## Theme: 
 
-For current collaborators, these are the simple guidelines regarding workflow.
+https://github.com/alexcarpenter/material-jekyll-theme
 
-All development happens at https://github.com/vvcb/vvcb.github.io. 
+The MIT License (MIT)
 
-1. The primary development branches are vvcb-develop and iv. 
-2. All commits from collaborators are merged into vvcb-develop for review. 
-3. Once this stage is complete, vvcb-develop is merged into master. 
-4. This updates the website https://vvcb.github.io and allows testing in the 'real world'.
-5. Any errors are fixed on the vvcb-develop branch before being merged back onto master.
-6. The final version is then incorporated into paieso.github.io via a pull request updating the 'live' website.
+Copyright (c) 2015 Alex Carpenter
 
-#### Tasks to be completed
-- [ ] @iv2016 Reformat pictures and put them in assets/images with descriptive names
-- [ ] @iv2016 Convert IESO document into markdown and save to drafts
-- [ ] @iv2016 Create sections for Obstetrics, Gynaecology, Surgery, Trauma and Miscellaneous in Resources.md
-- [ ] @iv2016 Start updating resources.md
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE. 
