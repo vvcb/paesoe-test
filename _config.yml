@@ -33,6 +33,7 @@ fixedNav: 'true' # true or false
 
 # Custom vars
 version:             0.0.2
+google-site-verification-code: "fvYLcEcUBoP2nUiuqZ5t4zkNH36vhQWdgRINHT7uF4Y"
 
 # Jekyll plugins
 plugins:
@@ -196,5 +197,3 @@ prose:
 #   hard_wrap         : false
 #   footnote_nr       : 1
 #   show_warnings     : false
-
-theme: jekyll-theme-cayman
