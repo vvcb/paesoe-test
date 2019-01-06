@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: page
 title: Home
-menu_order: 0
+permalink: /
 ---
 Welcome to the Professional Association of Emergency Surgery Officers of Ethiopia.
 
@@ -20,7 +20,13 @@ IESOs are responsible for the diagnosis and management of emergency general surg
 Their role is not only limited to clinical activities but may also extend to include research, teaching, management and leadership roles. This website will provide regular updates on the evolution of the role of IESOs in Ethiopia as well as their impact on the health of the people they serve.
 
 ### Recent posts
-{% for post in site.posts limit:5 %}
-[{{ post.date | date: "%d.%m.%y" }} {{ post.title }}]({{ site.baseurl }}{{ post.url }})
 
+<ul class="c-archives__list">
+{% for post in site.posts limit:5 %}
+<li class="c-archives__item">
+<div>
+    <h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+    <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+</div>
+</li>
 {% endfor %}
