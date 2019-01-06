@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Lancet Global Health Blog praises IESOs
+fulltitle: Lancet Global Health Blog - Non-doctor emergency surgeons are saving thousands of lives in rural ethiopian hospitals
+author: Dr. Biku Ghosh, OBE, FRCS, Dr. Aberra A Gobeze, MD
+date: 2016-06-10
 tags: news
-comments: true
+published: false
+debug: broken url
 ---
 Dr. Biku Ghosh, OBE, FRCS, Founder and former Chair, Wales for Africa Health Links Network and Co-founder of Southern Ethiopia Gwent Healthcare Link and Dr. Aberra A Gobeze, MD, Assistant Professor of Urology and Surgery, Hawassa University Referral Hospital, Hawassa, Ethiopia, and Founder of the Southern Ethiopia Gwent Health Care Link.have written an article in the Lancet Global Health Blog praising the role of IESOs in Ethiopia.
 
