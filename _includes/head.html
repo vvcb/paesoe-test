@@ -5,11 +5,12 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'UA-131797697-1');
   </script>
-  {%if site.google-site-verification-code and page.url | replace:'index.html','' == '/' %}
+  {%if page.url == '/' %}
+  {%if site.google-site-verification-code  %}
   <meta name="google-site-verification" content="{{ site.google-site-verification-code }}" />
+  {% endif %}
   {% endif %}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
