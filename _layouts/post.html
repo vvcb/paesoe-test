@@ -1,35 +1,31 @@
 ---
 layout: page
 ---
-{% if page.fulltitle %}
-<h3>{{page.fulltitle}}</h3>
-{% else %}
-<h3>{{page.title}}</h3>
-{% endif %}
+<!-- Start Nav/Author bar -->
+<section id="blog-date-author" class="container">
+  <div class="row">
+    <div class="col col-33">
+      {% include blog/date_duration.html %}
+    </div>
 
-<p>
-    {% if page.previous %}
-    <a href="{{page.previous.url}}">&laquo;</a>
-    {% else %}
-    &nbsp;
-    {% endif %}
+    <!-- Wrap this in a p tag for extra padding before main content -->
+    <div id="blog-author" class="col col-66">
+      <p>
+        {% include blog/authors.html %}
+      </p>
+    </div>
+  </div>
+</section>
+<!-- End Nav/Author bar -->
 
-    &nbsp;&nbsp;
-    <em>{{page.date | date: "%b %d, %Y" }}</em>
-    {% if page.next %}
-    &nbsp;&nbsp;
-    <a href="{{page.next.url}}">&raquo;</a>
-    {% endif %}
-    <br>
-    {% if page.author %}
-    {% assign author = site.data.members[page.author] %}
-    {% if author %}
-    <em>By: {{ author.name }}</em>
-    {% else %}
-    <em>By: {{ page.author }}</em>
-    {% endif %}
-    {% endif %}
-</p>
+<!-- Start Post Content -->
+<section class="container">
+  {{ content }}
+</section>
+<!-- End Post Content -->
 
-
-{{ content }}
+<!-- Start blog-nav-bottom -->
+<section class="container float-center">
+  {% include blog/progress.html %}
+</section>
+<!-- End blog-nav-bottom -->

@@ -1,0 +1,9 @@
+
+{% if include.page %}
+{% assign page = include.page %}
+{% endif %}
+{% assign m = page.content | strip_html | number_of_words | divided_by: 200.0 | ceil %}
+<span class="i-calendar"></span>
+{{ page.date | date: "%b %-d, %Y" }}
+&nbsp;&nbsp;<span class="i-clock"></span>
+{{ m }} min read.

@@ -1,0 +1,20 @@
+<h4>
+  <span class="i-globe"></span>
+  {{ include.title }}
+</h4>
+<dl>
+  <li>
+    <a href="mailto:contactmelese@gmail.com?Subject=Regarding%20PAESOE" target="_top" aria-label="Send email to PAESOE">
+      <span class="i-mail"></span>
+      contactmelese@gmail.com
+    </a>
+  </li>
+  {% for item in site.data.navigation.social_menu %}
+  <li>
+    <a href="{{ item.url }}" target="_blank" rel="noreferrer" aria-label="Link to PAESOE on {{ item.title }}">
+      <span class="{{ item.icon }}"></span>
+      {{ item.title }}
+    </a>
+  </li>
+  {% endfor %}
+</dl>

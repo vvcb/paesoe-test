@@ -2,31 +2,41 @@
 layout: post
 title: Neonatal Resuscitation Training - October 2017
 fulltitle: Neonatal Resuscitation Training Report - October 2017
-author: melese
+description: PAESOE & UNFPA conducted a 2-day course for 25 IESOs to equip them with advanced neonatal resuscitation skills using basic equipment and to enhance their knowledge on newborn evaluation before referral to the best set-up.
+image: /assets/images/2017-10-29-neonatal-resus-training-report-1.jpg
+authors: [melese]
 date: 2017-10-29
 tags: [news, training, report]
 published: true
 ---
 
-**Organized by Professional association for integrated emergency surgical officers of Ethiopia in collaboration with UNFPA**
+**Trainer/facilitator**
+<div class="row">
+<div class="col brdr">
 
-**Trainer/facilitator:**
+<span class="i-user"></span> **Fitsum Taye**
+(Bsc in Public health officer, Msc in emergency surgery)\\
+<span class="i-map"></span>Felegemeles HC, Addis Ababa \\
+<span class="i-mail"></span> [fitsumtaye91@yahoo.com](mailto:fitsumtaye91@yahoo.com)\\
+<span class="i-phone"></span> +251905596018
 
-1. **Fitsum Taye** (Bsc in Public health officer, Msc in emergency surgery) Felegemeles HC, Addis Ababa  
-**Email:** [fitsumtaye91@yahoo.com](mailto:fitsumtaye91@yahoo.com)  
-**Mobile:** +251905596018
-2. **Melese Takele** (Bsc in Public health officer, Msc in emergency surgery) Felegemeles HC, Addis Ababa  
-**Email:** [contactmelese@gmail.com](mailto:contactmelese@gmail.com)  
-**Website:** [www.paesoe.org](http://www.paesoe.org)  
-**Mobile +251913725145**  
+</div>
+<div class="col brdr">
+
+<span class="i-user"></span>**Melese Takele**
+(Bsc in Public health officer, Msc in emergency surgery)\\
+<span class="i-map"></span>Felegemeles HC, Addis Ababa  
+<span class="i-mail"></span> [contactmelese@gmail.com](mailto:contactmelese@gmail.com)\\  
+<span class="i-phone"></span>  +251913725145\\
+<span class="i-globe"></span> [www.paesoe.org](http://www.paesoe.org)
+
+</div>
+</div>
+
+**Organized by PAESOE in collaboration with UNFPA**
 
 **Report organized by: Melese Takele, Nevember 2017, Addis Ababa**
 
-### Contents
-{:no_toc}
-
-* Table of contents 
-{:toc}
 
 **Abbreviations**
 
@@ -42,7 +52,13 @@ We especially acknowledge the Midwifery Specialist Dorothy Eunice lazaro and Nat
 
 We would also like to thank the health facilities that responded to our call and sent their health workers to be trained.
 
-#### 1.0 Introduction 
+### Contents
+{:.no_toc}
+
+* Table of contents 
+{:toc}
+
+### 1.0 Introduction 
 
 Different studies were conducted and have agreed the deployment of ESOs in all health facilities (Primary and General Hospitals) has resulted in remarkable increase in volume of MNH and emergency surgical services with improvement in maternal and perinatal outcomes.
 
@@ -59,7 +75,7 @@ The learning objectives of the participants were that;
 - Assess the new born at birth
 - Perform resuscitation of new born using basic equipment
 
-#### 2.0 Activities
+### 2.0 Activities
 
 Activities included;
 - Pre-test
@@ -69,12 +85,12 @@ Activities included;
 - Post test
 - Feedback from the participants
 
-#### 3.0 Pre-test
+### 3.0 Pre-test
 
 The pre -- test included basic questions on initial assessment of the new born, immediate care of the new born and resuscitation techniques.
 The highest score was 91% while the lowest scored 68% with an average score of 80%.
 
-#### 4.0 Presentations
+### 4.0 Presentations
 
 The first presentation covered; an overview on neonatal deaths, neonatal asphyxia, and risk factors of neonatal asphyxia, initial assessment at birth and airway management.
 
@@ -84,7 +100,7 @@ The second presentation covered the equipment used in neonatal resuscitation and
 
 ![Picture of delegates at training](/assets/images/2017-10-29-neonatal-resus-training-report-2.jpg)
 
-#### 5.0 Demonstration
+### 5.0 Demonstration
 
 The participants were divided into four groups and allocated different resuscitation stations. 
 The facilitator demonstrated the steps of neonatal resuscitation and there was a return demonstration from each of the participants
@@ -93,26 +109,26 @@ The facilitator demonstrated the steps of neonatal resuscitation and there was a
 
 Participants during the practical session
 
-#### 6.0 Post Test 
+### 6.0 Post Test 
 
 The same test was done to compare the performance of the participants before and after the training.
 For the post-test a highest score of 97% and lowest 76% with an average of 86.5% were obtained. 
 Health workers were asked which neonatal resuscitation equipment they had and among 20 facilities only 13 facilities had 50 % or more of the basic required equipment.
 
-#### 7.0 Achievements
+### 7.0 Achievements
 - Bringing all ESOs together enabled us to discuss the strengths and weaknesses of each side.
 - We have received positive feedback from the health facilities where the participants came from.
 - There was an increase in knowledge of the neonatal resuscitation process at the end of the training as shown in the scores from the post-test.
 
-#### 8.0 Recommendations
+### 8.0 Recommendations
 - The TOT training should be considered for Emergency surgical officers to conduct institutional based /on job training for all midwives.
 - Trainees should disseminate what they have learned to fellow health workers in respective health facilities through CME sessions
 - For midwives working in hospitals, such training should be incorporated in their Continuous Medical Education (CME) sessions
 - Birth attendants in clinics, in the community need to be attached to health facilities that conduct regular CME sessions.
 
-#### 9.0 Feedback from participants
+### 9.0 Feedback from participants
 
-#### 9.1 Lessons learned
+### 9.1 Lessons learned
 - Proper steps in resuscitation (positioning, when to stop, when to start compressions and suctioning)
 - Pathophysiology of asphyxia
 - What to do during cardiopulmonary resuscitation
@@ -127,7 +143,7 @@ Health workers were asked which neonatal resuscitation equipment they had and am
 - Appearance of a premature baby
 - Keeping the baby warm after birth
 
-#### 9.2 Suggested topics for further training
+### 9.2 Suggested topics for further training
 - Advance neonatal resuscitation training or TOT training
 - Advanced life support for obstetrics training (ALSO - training)
 - Refreshment training on surgical Management/control of Post Partum Haemorrhage (PPH)
@@ -136,10 +152,10 @@ Health workers were asked which neonatal resuscitation equipment they had and am
 
 At the end of the day, participants were given brochures and notes on neonatal resuscitation.
 
-#### Annex 
-{:notoc}
+### Annex 
+{:.notoc}
 
-#### 10. Pre and Post test questions
+### 10. Pre and Post test questions
 
 **NEONATAL RESUSCITATION TRAINING PRE -- TEST and post test**
 

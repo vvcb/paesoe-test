@@ -1,0 +1,34 @@
+---
+layout: page
+title: Contact Us
+permalink: /contact
+---
+<section class="container">
+  <p>Please get in touch with your own inspiring stories or suggestions. We look forward to hearing from you.</p>
+
+  <div class="row">
+    <!-- Start Address Phone Card -->
+    <div class="col">
+      {% include contact/address.html %}
+    </div>
+    <!-- End Address Phone Card -->
+<hr>
+    <!-- <div class="col-md hidden-sm"></div> -->
+
+    <!-- Start Electronic Communications Card -->
+    <div class="col">
+      {% include contact/social.html title="Find us online:" %}
+    </div>
+    <!-- End Electronic Communications Card -->
+  </div>
+  <!-- End Communications Cards -->
+</section>
+
+<!-- Start Contact Form -->
+<section class="container">
+ 
+      {% include contact/form.html %}
+
+  
+</section>
+<!-- End Contact Form -->

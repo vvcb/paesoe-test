@@ -1,0 +1,16 @@
+<h4><span class="i-file-text"></span>
+  <a href="/blog">Recent posts:</a>
+</h4>
+<dl>
+  {% for post in site.posts limit:include.items %}
+  <li>
+    <a href="{{ post.url | prepend: site.baseurl }}">
+      {{ post.title }}
+    </a>
+    &nbsp;&nbsp;
+    <small>
+      {{ post.date | date: "%b %-d, %Y" }}
+    </small>
+  </li>
+  {% endfor %}
+</dl>

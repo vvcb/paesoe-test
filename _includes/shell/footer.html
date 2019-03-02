@@ -1,0 +1,19 @@
+<footer>
+  <!-- <div class="container"> -->
+    <!-- <ul>
+      <li> -->
+        <a class ="button button-icon" href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}" aria-label="Copyright Notice">
+          <span>&copy;</span>
+
+        </a>
+      <!-- </li> -->
+      {% for item in site.data.navigation.social_menu %}
+      <!-- <li> -->
+        <a class ="button button-icon" href="{{ item.url }}" rel="noreferrer" target="_blank" aria-label="Link to PAESOE on {{ item.title }}">
+          <span class="{{ item.icon }}"></span>
+        </a>
+        <!-- </li> -->
+        {% endfor %}
+    <!-- </ul> -->
+  <!-- </div> -->
+</footer>

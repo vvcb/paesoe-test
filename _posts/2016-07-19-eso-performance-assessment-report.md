@@ -1,41 +1,48 @@
 ---
 layout: post
-title: Performance Assessment of ESOs - ESOG Report
+title: ESOG-led Performance Assessment of IESOs
 fulltitle: Performance assessment of Emergency Surgical Officers at health facilities in Ethiopia
-author: Ethiopian society of Obstetricians and Gynaecologists
+description: ESOG-led assessment of services provided by IESOs shows that generally deployment of IESOs resulted in remarkable increase in volume of emergency surgical services with improvement in maternal and perinatal outcomes.
+authors: [ESOG]
 date: 2016-07-19
-tags: [news, report]
+tags: [news, report, performance]
 published: true
 ---
-
-Download Draft Report: 
-- [MS Word .docx format (528kB)](/assets/docs/revised-draft-report-esp-performance-assessment-esog.docx)
-- [PDF format (1.5MB)](/assets/docs/revised-draft-report-esp-performance-assessment-esog.pdf)
-
-
-Ethiopian society of Obstetricians and Gynaecologists (ESOG) led and fully supported this assessment as part of its objective to support and promote quality reproductive health services in the country.
+<div class="row">
+<div class="col col-75">
+Ethiopian society of Obstetricians and Gynaecologists [(ESOG)]({{site.data.links.esog}}) led and fully supported an assessment of the services provided by IESOs as part of its objective to support and promote quality reproductive health services in the country.
 It believes that the findings of this assessment will be highly useful to reflect on and improve the IESO programme of the country.
 The findings ultimately will help improve the quality of C-EmONC and Emergency Surgical Services provided in health facilities where ESOs are deployed.
+</div>
+<div class="col col-25 brdr">
+Download Draft Report:
+: [<span class="i-download"></span> MS Word (528Kb)](/assets/docs/revised-draft-report-esp-performance-assessment-esog.docx) 
+: [<span class="i-download"></span> PDF (1.5Mb)](/assets/docs/revised-draft-report-esp-performance-assessment-esog.pdf)
+</div>
+</div>
+### Contents
+{:no_toc}
 
-**Executive summary**
+* Table of contents 
+{:toc}
 
-**Background and rationale:**
+### Background and rationale
 
 Ethiopia was committed to the attainment of the Millennium Development Goals (MDGs) by 2015.
 These included the MDG 4 and 5 aiming to reduce child mortality by two thirds and maternal mortality by three quarters by 2015 from the 1990 levels.
 To achieve these targets, the government with its partners has been intensifying its efforts to strengthen health care services planning to construct many hospitals and train adequate skilled clinical staff that can provide comprehensive emergency obstetric & newborn care (CEmONC) services as well as emergency surgical services.
 One of the major initiatives designed by the F-MOH in 2009 was Integrated Emergency Surgical Officers (IESO) initiative which is a Master of Science (MsC) training program.
-The goal of the MSc training programme is to produce competent Emergency Surgical Officers (ESO) capable to handle common emergency obstetric-gynaecological and emergency general surgical procedures including trauma where a gynaecologist and a surgeon are inaccessible.  
+The goal of the MSc training programme is to produce competent Emergency Surgical Officers (ESO) capable to handle common emergency obstetric-gynaecological and emergency general surgical procedures including trauma where a gynaecologist and a surgeon are inaccessible. 
 
 ESOs are deployed in several health facilities in different regions of the country since 2012 to provide CEmONC and emergency surgical services.
 As the deployment of ESOs at health facilities to provide these services is a new experience in the country, conducting the program assessment is reasonable and of paramount importance.
 In addition, it is to comply with the WHO and global recommendation of careful monitoring of task shifting approaches in health care service delivery like the IESO program.
 
-**Objective:**
+### Objective
 
 The general objective of the assessment is to provide an in-depth facility level performance assessment of CEmONC and emergency surgical services provided by emergency surgical officers and inform the different stakeholders for quality improvement of the service provided and the IESO program.
 
-**Materials and methods:**
+### Materials and methods
 
 This is a facility based descriptive cross-sectional assessment.
 It was conducted by ESOG in collaboration with the Federal Ministry of Health, CDC-Ethiopia, Regional Health Offices, target facilities and other stakeholders.
@@ -50,7 +57,7 @@ All the collected data were coded.
 Both individual and facility level data were then entered, cleaned and analyzed using SPSS Version 20.0 statistical software.
 Ethical clearance was obtained from Ethiopian Public Health Institute (EPHI) and Centres for Disease Control (CDC) before data collection. 
 
-**Findings:**
+### Findings
 
 Data was collected from a total of 96 facilities from 8 regions of the country.
 About two third of the facilities, 66% (63/96), were primary hospitals.
@@ -83,22 +90,37 @@ Shortage of equipments and supplies required for surgery was the commonest chall
 And, “absence or unsatisfactory duty payment and incentive” was the second commonest challenge reported by 35.5% (33/141).
 Majority of the ESOs, 68.7% (92/134), expressed their intent to continue working in their current facilities in the year after.
 
-**Conclusions and recommendations:**
+### Conclusions and recommendations
 
 Generally the deployment of ESOs in all health facilities (Primary and General Hospitals) has resulted in remarkable increase in volume of MNH and emergency surgical services with improvement in maternal and perinatal outcomes.
 
-Key conclusions and recommendations include:- 
+Key conclusions and recommendations include:
 
-- Shortage of equipment and supplies related to surgery, and absence or unsatisfactory duty payment and incentives were the main challenges reported by the ESOs.  
-  **Recommendations:** The main challenges reported by the ESOs should be discussed and addressed by the stake holders and respective facilities so as to maintain the achievement gained so far.
-
-- Pre-deployment assessment and filling of identified gaps was not done in many of the facilities.
-  The deployment of ESOs in all facilities has led to significant increase in volume of MNH and emergency surgical services compared to the year prior to their deployment.
-  The increase in ESO only facilities especially was more significant compared to ESO plus facilities which is commendable.  
-  **Recommendations:**- Pre-deployment assessment of all facilities need to be done at all times to optimally utilize and maintain ESOs’ clinical skills.
-
-- The reduction in proportion of intra-facility maternal deaths by more than a third was a good achievement.
-  Excessive blood loss and deep incision extension were the commonest documented complications in cases being managed by the ESOs. 
-  **Recommendations**:- To further reduce proportion of intra-facility maternal deaths and improve maternal and perinatal outcomes, factors leading to delay in reaching the facilities need to be assessed and addressed accordingly. 
-  As the most common complications are excessive blood loss, deep incision extension and wound infection, focused surgical skill building support/mentoring should be considered by the stake holders of the IESO programme. 
-  w
+<div class="row row-center brdr">
+<div class="col col-50">
+Shortage of equipment and supplies related to surgery, and absence or unsatisfactory duty payment and incentives were the main challenges reported by the ESOs.
+</div>
+<div class="col col-50">
+**Recommendations:** The main challenges reported by the ESOs should be discussed and addressed by the stake holders and respective facilities so as to maintain the achievement gained so far.
+</div>
+</div>
+<div class="row row-center brdr">
+<div class="col col-50">
+Pre-deployment assessment and filling of identified gaps was not done in many of the facilities.
+The deployment of ESOs in all facilities has led to significant increase in volume of MNH and emergency surgical services compared to the year prior to their deployment.
+The increase in ESO only facilities especially was more significant compared to ESO plus facilities which is commendable.
+</div>
+<div class="col col-50">
+**Recommendations:** Pre-deployment assessment of all facilities need to be done at all times to optimally utilize and maintain ESOs’ clinical skills.
+</div>
+</div>
+<div class="row row-center brdr">
+<div class="col col-50">
+The reduction in proportion of intra-facility maternal deaths by more than a third was a good achievement.
+Excessive blood loss and deep incision extension were the commonest documented complications in cases being managed by the ESOs.
+</div>
+<div class="col col-50">
+**Recommendations:** To further reduce proportion of intra-facility maternal deaths and improve maternal and perinatal outcomes, factors leading to delay in reaching the facilities need to be assessed and addressed accordingly.
+As the most common complications are excessive blood loss, deep incision extension and wound infection, focused surgical skill building support/mentoring should be considered by the stake holders of the IESO programme.
+</div>
+</div>

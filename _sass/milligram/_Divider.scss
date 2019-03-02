@@ -1,0 +1,11 @@
+// Divider - One allowed excess!!!
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+hr {
+  margin: 2rem 0;
+  border: 0;
+  border-top: 0.1rem solid $clr-gray;
+  border-right: 20rem solid fade-out($color: $clr-gray, $amount: 1);
+  border-left: 20rem solid fade-out($color: $clr-gray, $amount: 1);
+
+}

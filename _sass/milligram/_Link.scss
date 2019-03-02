@@ -1,0 +1,16 @@
+// Link
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+a {
+  color: $clr-blue;
+  text-decoration: none;
+
+  &:focus,
+  &:hover {
+    color: $clr-teal;
+  }
+
+  &:visited {
+    color: $clr-blue;
+  }
+}

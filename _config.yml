@@ -1,16 +1,45 @@
-# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
+# Site Setup
+title: PAESOE
+tagline: Emergency Surgery Saves Lives
+description: > 
+  Professional Association of Emergency Surgery Officers in Ethiopia. 
+  Saving lives across Ethiopia through emergency obstetric, general and trauma surgery.
+url: https://paesoe.org
+baseurl: ''
+version: 0.0.3
 permalink: /:year/:month/:title
 
-# Setup
-title: 'PAESOE'
-tagline: 'Emergency Surgery Saves Lives'
-description: > 
-  'Professional Association of Emergency Surgery Officers in Ethiopia. Saving lives across Ethiopia through emergency obstetric, general and trauma surgery.'
-url: 'https://paesoe.org'
-baseurl: ''
-githubUsername: paesoe
+thumbnail: /assets/images/default-image.jpg
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image: /assets/images/default-image.jpg
+
+# SEO
+twitter:
+  username: PaesoeOrg
+  card: summary
+
+facebook:
+  publisher: https://www.facebook.com/Professional-association-of-Integrated-emergency-surgical-officers-912482102210807/
+
+github:
+  username: paesoe
+  
+social:
+  name: PAESOE
+  links:
+    - https://twitter.com/PaesoeOrg
+    - https://www.facebook.com/Professional-association-of-Integrated-emergency-surgical-officers-912482102210807/
+    - https://www.linkedin.com/company/paesoe/
+    - https://github.com/paesoe
+
+webmaster_verifications:
+  google: fvYLcEcUBoP2nUiuqZ5t4zkNH36vhQWdgRINHT7uF4Y
+  bing: 304054A661DFFA8F74EA244BD262D2AC
 
 # About/contact
 author:
@@ -18,83 +47,38 @@ author:
   url: https://github.com/vvcb
   email: ieso.ethiopia@gmail.com
   
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :compressed # You might prefer to minify using :compressed
+# Jekyll Settings
 
-# paginate: 5
-# paginate_path: "articles"
+sass:
+  style: :compressed
+
+# http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: [li, p, td]
+  ignore:
+    envs: []
+  blanklines: false
+  # profile: true
+  startings: []
+
 markdown: kramdown
 include: [_pages]
-exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
-themeColor: green # green, blue, orange, purple, grey
-fixedNav: 'true' # true or false
+exclude: [_site, src, CHANGELOG.md, LICENSE, README.md, Gemfile, Gemfile.lock, 
+          vendor, node_modules, package.json, package-lock.json, 
+          webpack.config.js]
 
-
-# Custom vars
-version:             0.0.2
-google-site-verification-code: "fvYLcEcUBoP2nUiuqZ5t4zkNH36vhQWdgRINHT7uF4Y"
-
+kramdown:
+ parse_block_html: true
 # Jekyll plugins
 plugins:
-  - jekyll-sitemap
   - jekyll-redirect-from
-  - jekyll-relative-links
-  
-# prose.io config
-prose:
-  rooturl: '_posts'
-  media: 'img'
-  ignore:
-    - 404.html
-    - LICENSE
-    - feed.xml
-    - _config.yml
-    - /_layouts
-    - /_includes
-    - /css
-    - /img
-    - /js
-  metadata:
-    _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "post"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Post title"
-          placeholder: "Title"
-          alterable: true
-      - name: "subtitle"
-        field:
-          element: "textarea"
-          label: "Subtitle"
-          placeholder: "A description of your post."
-          alterable: true
-      - name: "date"
-        field:
-          element: "text"
-          label: "Date"
-          help: "Enter date of post."
-          placeholder: "yyyy-mm-dd"
-          alterable: true
-      - name: "image"
-        field:
-          element: "text"
-          label: "Image"
-          help: "Add a thumbnail image to your post."
-          placeholder: "Thumbnail"
-          alterable: true
-      - name: "published"
-        field:
-          element: "checkbox"
-          label: "Publish"
-          help: "Check to publish post, uncheck to hide."
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
 
-
-  ###############################################################
+###############################################################
 # Documentation
 ###############################################################
 

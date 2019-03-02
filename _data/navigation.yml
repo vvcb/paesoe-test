@@ -1,17 +1,74 @@
 main_menu_title: PAESOE
 main_menu:
+  - title: Home
+    url: /
+    icon: i-home
 
-- title: Home
-  url: /
+  - title: Blog
+    url: /blog
+    icon: i-file-text
 
-- title: Articles
-  url: /articles
+  - title: Library
+    url: /library
+    icon: i-book-open
 
-- title: Education
-  url: /education
+  - title: About
+    url: /about
+    icon: i-users
 
-- title: About Us
-  url: /about
+  - title: Contact
+    url: /contact
+    icon: i-mail
 
-- title: Contact Us
-  url: /contact
+social_menu:
+  - title: "@PaesoeOrg"
+    url: https://twitter.com/PaesoeOrg
+    icon: i-twitter
+    social: true
+    css: 
+
+  - title: Facebook
+    url: https://www.facebook.com/Professional-association-of-Integrated-emergency-surgical-officers-912482102210807
+    icon: i-facebook
+    social: true
+    css: 
+
+  - title: LinkedIn
+    url: https://www.linkedin.com/company/paesoe
+    icon: i-linkedin
+    social: true
+    css: 
+
+  - title: Github
+    url: https://github.com/paesoe
+    icon: i-github
+    social: true
+    css: 
+
+footer_menu:
+  - title: Chrome
+    url: https://www.google.com/chrome
+    icon: i-chrome
+    social: false
+    css: hidden-sm
+
+  # - title: Firefox
+  #   url: https://getfirefox.com
+  #   icon: fab fa-firefox
+  #   social: false
+  #   css: hidden-sm
+
+share:
+  - title: Twitter
+    url: https://twitter.com/PaesoeOrg
+    icon: i-twitter
+    
+  - title: Facebook
+    url: https://www.facebook.com/Professional-association-of-Integrated-emergency-surgical-officers-912482102210807
+    icon: i-facebook
+    css: 
+
+  - title: LinkedIn
+    url: https://www.linkedin.com/company/paesoe
+    icon: i-linkedin
+    css: 

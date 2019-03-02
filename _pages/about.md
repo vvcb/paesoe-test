@@ -28,11 +28,11 @@ permalink: /about
 7. Alehegn worku: Member
 
 ## Memorandum of Professional Association of Emergency Surgical Officers of Ethiopia (PAESOE)
-{:no_toc}
+{:.no_toc}
 **August 25-26, 2013, Mekelle, Ethiopia**
 
 ### Contents
-{:no_toc}
+{:.no_toc}
 
 * Table of contents 
 {:toc}

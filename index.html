@@ -1,0 +1,99 @@
+---
+layout: page
+title: Home
+permalink: /
+---
+{% include index/parallax_banner_1.html %}
+<!-- Format Header Text. Load top banner image asynchronously and apply parallax -->
+<script async type="text/javascript" src="{{'/js/rellax.min.js' | prepend: site.baseurl }}"></script>
+<script>
+    window.addEventListener('load', function () {
+      const firstLetter = new RegExp('([A-Z]?)([a-z]+)', 'g');
+      Array.from(document.getElementsByClassName("title")).map(e => {
+         e.innerHTML = e.innerHTML.replace(firstLetter, "<mark>$1</mark><small>$2</small>");
+      });
+      const rellax = new Rellax('.rellax');
+    });
+</script>
+
+<section class="container float-center" style="background: rgba(255, 255, 255, 0.7)">
+  <h2 class="title">
+    Professional Association of Emergency Surgery Officers of Ethiopia
+  </h2>
+  <hr>
+  <h3>የኢትዮጵያ የተቀናጀ ድንገተኛ ቀዶ ህክምና መኮነኖች ማህበር</h3>
+  <h4>
+    We are the Integrated Emergency Surgical Officers of Ethiopia, advanced associate clinicians with a graduate degree (MSc) in integrated emergency general surgery, obstetrics and gynaecology.
+    <br>
+    We are non-doctor surgeons trained to treat a wide-range of life-threatening surgical and obstetric emergencies, often in remote, rural communities of Ethiopia.
+  </h4>
+  <p>
+    The IESO programme is a core part of the Ethiopian Federal Ministry of Health (FMoH)’s <mark>Saving Lives through Safe Surgery (SaLTS)</mark> initiative, a part of the <mark>Health Sector Transformation Plan (HSTP)</mark>.
+    SaLTS emphasizes Ethiopia’s firm commitment to improving access to safe emergency surgical and obstetric care to all segments of the population.
+  </p>
+  <hr>
+</section>
+
+<section class="container">
+  <div class="row">
+    <div class="col col-33">
+      <p style="font-size: 10rem; text-align: center;">
+        <span class="i-users"></span>
+      </p>
+      <p>
+        <mark>Over 720 IESOs have completed the programme since 2012</mark> and more graduate every year. They have been deployed to upgraded rural health centres and hospitals to serve as frontline surgical and obstetric care providers in remote communities.
+      </p>
+    </div>
+    <div class="col col-33 brdr">
+      <p style="font-size: 10rem; text-align: center;"> <span class="i-scissors"></span>
+      </p>
+      <p>
+        IESOs have performed <mark>over 20,000 caesarean sections and several thousand other life-saving emergency laparotomies</mark>, dramatically improving access to Comprehensive Emergency Obstetric Care (CEmOC) and essential emergency surgical care.
+      </p>
+    </div>
+    <div class="col col-33">
+      <p style="font-size: 10rem; text-align: center;"> <span class="i-trending-down"></span>
+      </p>
+      <p>
+        The IESO programme, along with several other interventions by the Ethiopian Government, has contributed to a <mark>70% reduction in the number of women dying due to complications of child-birth</mark>. And, countless newborn lives saved.
+      </p>
+    </div>
+  </div>
+  <hr>
+
+  <div class="row">
+    <div class="col col-40">
+      <p>
+        Surgical and obstetric emergencies are a major cause of death in Ethiopia.
+        Maternal and infant mortality from perinatal complications remain unacceptably high.
+        Road traffic collisions and other surgical emergencies also contribute to high death rates amongst the young and the old.
+      </p>
+      <p>
+        The Ethiopian Government and <a href="{{ site.data.links.moh }}" rel="noreferrer" target="_blank">Federal Ministry of Health</a> recognised this huge problem and introduced the <a href="http://www.moh.gov.et/en_GB/ieso" rel="noreferrer" target="_blank">IESO</a> programme in 2010 as one of the steps towards achieving some of the
+        <a href="http://www.un.org/millenniumgoals" rel="noreferrer" target="_blank">Millennium Development Goals</a> set by the United Nations.
+      </p>
+      <p>
+        Ethiopia has been a pioneer in implementing healthcare transformation plans that have resulted in dramatic improvements in access to emergency surgical and obstetric care, especially in rural communities.
+      </p>
+    </div>
+    <div class="col col-60">
+      <div id="mmr-ieso-chart">
+        {% include charts/chart-mmr-ieso.html id="mmr-ieso-chart" %}
+      </div>
+      <p>
+        PAESOE represents IESOs in discussions with the FMoH and other professional and academic organisations in issues such as career development and continuing medical education. This will allow us to continue to play an effective role in achieving the goals set by FMoH and other stakeholders.
+      </p>
+    </div>
+  </div>
+  <hr>
+
+  <div class="row">
+    <div class="col col-66">
+      {% include blog/recent.html items=5 %}
+    </div>
+
+    <div class="col col-33">
+      {% include contact/social.html title='<a href="/contact">Get in touch:</a>' %}
+    </div>
+  </div>
+</section>
