@@ -1,0 +1,11 @@
+{% if page.title != "Home" %}
+<section class="container" role="heading">
+  <h2 id="article-title">
+    {% if page.fulltitle %}
+    {{ page.fulltitle }}
+    {% else %}
+    {{ page.title }}
+    {% endif %}
+  </h2>
+</section>
+{% endif %}

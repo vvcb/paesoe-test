@@ -1,14 +1,21 @@
 ---
-layout: default
+layout: compress
 ---
-<article class="c-article">
-  <header class="c-header c-article__header">
-    <div class="u-container">
-      <h1 class="c-header__title">{{ site.title }} &middot; {{ page.title }}</h1>
-    </div>
-  </header>
+<!DOCTYPE html>
+<html lang="en">
+{% include shell/head.html %}
 
-  <div class="c-article__main">
-    {{ content }}
-  </div>
-</article>
+<body>
+
+  {% include shell/header.html %}
+  
+  <main class="wrapper">
+   {%- include shell/title.html -%}
+   
+   {%- include shell/content.html -%}
+  </main>
+
+  {%- include shell/footer.html -%}
+
+</body>
+</html>

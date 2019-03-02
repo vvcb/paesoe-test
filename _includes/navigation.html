@@ -1,8 +1,0 @@
-<nav class="c-navigation {% if site.fixedNav == 'true' %}is-fixed{% endif %}">
-  <div class="c-navigation__container u-container">
-    {% for item in site.data.navigation.main_menu %}
-    <a class="c-navigation__item {% if page.url == item.url %}is-active{% endif %}" href="{{ item.url | prepend: site.baseurl }}">{{
-      item.title }}</a>
-    {% endfor %}
-  </div>
-</nav>

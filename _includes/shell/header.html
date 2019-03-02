@@ -1,0 +1,19 @@
+<header class="header">
+  <div class="container">
+  <a href="/" class="logo">PAESOE</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn">
+      <span class="navicon"></span>
+    </label>
+    <ul class="menu">
+      {% for item in site.data.navigation.main_menu %}
+      <li>
+        <a href="{{ item.url | prepend: site.baseurl }}">
+          <!-- <span class="{{ item.icon }}"> </span>&nbsp; -->
+          {{ item.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</header>

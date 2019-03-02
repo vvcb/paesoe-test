@@ -1,0 +1,27 @@
+melese:
+  name: Melese Takele
+  twitter: contactmelese
+  picture: /assets/images/melese-takele.jpg
+  email: contactmelese@gmail.com
+
+biku:
+  name: Dr. Biku Ghosh OBE FRCS
+  twitter: GhoshBiku
+  picture: /assets/images/biku-ghosh.jpg
+
+vvcb:
+  name: Vishnu V Chandrabalan
+  twitter: vvcb
+  linkedin: https://www.linkedin.com/in/vishnu-v-chandrabalan
+  github: vvcb
+  email: vvcb.n1@gmail.com
+
+aberra:
+  name: Dr. Aberra Gobezie
+  picture: /assets/images/aberra-gobezie.jpg
+
+admin:
+  name: PAESOE
+  twitter: PaesoeOrg
+  email: ieso.ethiopia@gmail.com
+  github: paesoe

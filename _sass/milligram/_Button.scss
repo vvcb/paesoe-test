@@ -1,0 +1,115 @@
+// Button
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.button,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  background-color: $clr-green;
+  border: 1px solid darken($clr-green, 20);
+  border-radius: 0.4rem;
+  color: $clr-white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 700;
+  height: 3.8rem;
+  letter-spacing: 0.1rem;
+  line-height: 3.8rem;
+  padding: 0 3rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+  &:focus,
+  &:hover {
+    background-color: darken($clr-green, 20);
+    border-color: $clr-green;
+    color: $clr-white;
+    outline: 0;
+  }
+
+  &[disabled] {
+    cursor: default;
+    opacity: 0.5;
+
+    &:focus,
+    &:hover {
+      background-color: $clr-green;
+      border-color: darken($clr-green, 20);
+    }
+  }
+
+  &.button-outline {
+    background-color: transparent;
+    color: darken($clr-green, 20);
+
+    &:focus,
+    &:hover {
+      background-color: transparent;
+      border-color: $clr-green;
+      color: darken($clr-green, 20);
+      ;
+    }
+
+    &[disabled] {
+
+      &:focus,
+      &:hover {
+        border-color: inherit;
+        color: darken($clr-green, 20);
+        ;
+      }
+    }
+  }
+
+  &.button-icon {
+    background-color: transparent;
+    // border-color: transparent;
+    border: none;
+    color: $clr-green;
+    padding: 0 1rem;
+    font-size: 2rem;
+
+    &:focus,
+    &:hover {
+      background-color: transparent;
+      border-color: transparent;
+      color: darken($clr-green, 20);
+      ;
+    }
+
+    &[disabled] {
+
+      &:focus,
+      &:hover {
+        color: $clr-gray;
+        background-color: transparent;
+        // border-color: transparent;
+        border: none;
+      }
+    }
+  }
+
+  // &.button-clear {
+  //   background-color: transparent;
+  //   border-color: transparent;
+  //   color:  darken($clr-green,20);;
+
+  //   &:focus,
+  //   &:hover {
+  //     background-color: transparent;
+  //     border-color: transparent;
+  //     color:  darken($clr-green,20);;
+  //   }
+
+  //   &[disabled] {
+  //     &:focus,
+  //     &:hover {
+  //       color: $clr-gray;
+  //     }
+  //   }
+  // }
+}

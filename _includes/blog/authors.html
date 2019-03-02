@@ -1,0 +1,16 @@
+{% if page.authors %}
+  <span class="i-user"></span>&nbsp;
+  <em>
+  {%- for item in page.authors -%}
+  {%- if forloop.first == false -%}
+  ,&#32;
+  {%- endif-%}
+  {%- assign author = site.data.authors[item] -%}
+  {%- if author -%}
+   {{ author.name | strip | replace: ' ', '&nbsp;'}}
+  {%- else -%}
+   {{ item | strip | replace: ' ', '&nbsp;' }}
+  {%- endif -%}
+  {%- endfor -%}
+</em>
+{% endif %}

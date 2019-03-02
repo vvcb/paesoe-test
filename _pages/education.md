@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Education
-permalink: /education
+title: Library
+permalink: /library
 ---
 
 A list of links to useful websites and resources. This page will be periodically updated to add new information. Please [let us know]({{ site.baseurl }}/contact) if we can improve this list or if any of the links do not work.

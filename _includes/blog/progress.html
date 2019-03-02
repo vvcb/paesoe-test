@@ -1,0 +1,29 @@
+{% for item in site.posts %}
+{% if item == page %}
+{% assign progress = forloop.rindex | times: 1000 | divided_by: forloop.length %}
+{% endif %}
+{% endfor %}
+
+<div>
+  {% if page.previous %}
+  <a href="{{page.previous.url}}" title="{{page.previous.title}}" class="button button-icon">
+    <span class="i-chevron-left"></span>
+  </a>
+  {% else %}
+  <button class="button button-icon" title="The end!" disabled aria-label="The end!">
+    <span class="i-stop-circle"></span>
+  </button>
+  {% endif %}
+
+  <progress value="{{ progress }}" max="1000"></progress>
+
+  {% if page.next %}
+  <a href="{{page.next.url}}" title="{{page.next.title}}" class="button button-icon">
+    <span class="i-chevron-right"></span>
+  </a>
+  {% else %}
+  <button class="button button-icon" title="The end!" disabled aria-label="The end!">
+    <span class="i-stop-circle"></span>
+  </button>
+  {% endif %}
+</div>

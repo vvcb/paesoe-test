@@ -1,0 +1,48 @@
+<canvas id="{{ include.id }}"></canvas>
+<script>
+  Chart.defaults.scale.gridLines.display = false;
+  Chart.defaults.scale.scaleLabel.display = true;
+  Chart.defaults.global.elements.line.fill = false;
+  Chart.defaults.scale.ticks.beginAtZero = true;
+
+  window.chartColors = {
+    red: 'rgb(255, 99, 132)',
+    orange: 'rgb(255, 159, 64)',
+    yellow: 'rgb(255, 205, 86)',
+    green: 'rgb(75, 192, 192)',
+    blue: 'rgb(54, 162, 235)',
+    purple: 'rgb(153, 102, 255)',
+    grey: 'rgb(201, 203, 207)'
+  };
+
+  var ctx = document.getElementById("chart-mmr-ieso");
+
+
+  var iesoDataset = {
+    type: 'doughnut',
+    backgroundColor: [
+      window.chartColors.green,
+      window.chartColors.red
+    ],
+    borderWidth: 2,
+    label: 'IESO',
+    data: [720, 280]
+
+  };
+  var myChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      datasets: [
+        iesoDataset
+      ],
+      labels: ['IESOs Currently Deployed', 'Target']
+    },
+    options :{
+      cutoutPercentage: 50,
+      rotation: Math.PI,
+      circumference: Math.PI
+
+    }
+  });
+
+</script>

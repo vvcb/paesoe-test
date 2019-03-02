@@ -1,39 +1,84 @@
-## Professional Association of Integrated Emergency Surgical Officers of Ethiopia
 
-Welcome to the website of the Professional Association of Integrated Emergency Surgical Officers of Ethiopia. This GitHub repository holds the Jekyll site that is served up by GitHub Pages. 
+# Professional Association of Integrated Emergency Surgical Officers of Ethiopia
+{:.no_toc}
 
-## Built using ...
+Welcome to the website of the Professional Association of Integrated Emergency Surgical Officers of Ethiopia. This GitHub repository holds the Jekyll site that is served up by GitHub Pages.
 
-This website uses several open-source technologies. Some of them are listed below.
+## Contents:
+{:.no_toc}
 
-- http://github.com/
-- https://jekyllrb.com/
-- https://github.com/penibelst/jekyll-compress-html
-- 
-- 
+- Contents
+{:toc}
 
-## Theme: 
+## People:
+This would not be possible without inspiration from the following:
+- Melese Takele: President of PAESOE and a very motivated Integrated Emergency Surgery Officer based in Addis Ababa, Ethiopia
+- Dr. Biku Ghosh FRCS, OBE: Retired(?) Consultant Surgeon, who is working as hard now as he did before retirement. He is the co-founder of the Southern Ethiopia Gwent Health Link, which I did some work with. 
 
-https://github.com/alexcarpenter/material-jekyll-theme
+## Development
+This website uses several open-source software as well as code snippets and ideas borrowed from the very generous open-source community on the internet.
+I am not a web designer or developer and I have undertaken this in my spare time. 
+Nearly always, ease of use/development has taken priority over best-practice, often not out of choice but out of not knowing any better.
 
-The MIT License (MIT)
+In no particular order, here are some of the resources that I have used in putting this together.
 
-Copyright (c) 2015 Alex Carpenter
+- Free hosting: http://github.com/
+- Static site generator: https://jekyllrb.com/
+- Minify HTML/CSS: https://github.com/penibelst/jekyll-compress-html
+- Normalize: http://necolas.github.io/normalize.css/
+- Milligram CSS:  https://milligram.io
+- ChartJS: https://chartjs.org (will probably endup using Chartist instead)
+- Rellax Parallax library: https://github.com/dixonandmoe/rellax
+- CDN - Cloudflare: https://www.cloudflare.com
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+No longer in use:
+- ~~ Theme: https://github.com/alexcarpenter/material-jekyll-theme~~
+- ~~ CSS: https://minicss.org (Very good and learnt a lot.) ~~
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## ToDo: 
+- [ ] Achieve 100% on Google Lighthouse
+    - [ ] Performance
+        - [ ] Check if any further optimisations can be made especially with JS
+        - [ ] Eliminate render-blocking resources (main.css)
+        - [ ] Minimize Critical Requests Depth
+    - [ ] PWA 
+        - [ ] Respond with a 200 when offline
+        - [ ] User will be prompted to Install the Web App. 
+        - [ ] Include Manifest file
+        - [ ] Register a service worker
+        - [ ] Is configured for a custom splash screen.
+        - [ ] Address bar should match brand colors.
+        - [ ] Site works cross-browser
+        - [ ] Page transitions don't feel like they block on the network
+        - [ ] Each page has a URL
+    - [ ] Accessibility
+        - [ ] Image elements should have [alt] attributes
+        - [ ] Background and foreground colors should have a sufficient contrast ratio.
+        - [ ] `<dl>`'s contain only properly-ordered `<dt> and <dd> groups, <script> or <template>` elements.
+        - [ ] List items (`<li>`) are contained within `<ul> or <ol>` parent elements.
+        - [ ] Manual Checks
+        - [ ] The page has a logical tab order
+        - [ ] Interactive controls are keyboard focusable
+        - [ ] Interactive elements indicate their purpose and state
+        - [ ] The user's focus is directed to new content added to the page
+        - [ ] User focus is not accidentally trapped in a region
+        - [ ] Custom controls have associated labels
+        - [ ] Custom controls have ARIA roles
+        - [ ] Visual order on the page follows DOM order
+        - [ ] Offscreen content is hidden from assistive technology
+        - [ ] Headings don't skip levels
+        - [ ] HTML5 landmark elements are used to improve navigation
+    - [ ] Best Practices
+        - [ ] Use HTTP/2 for all resources
+    - [ ] SEO 
+        - [ ] [Page is mobile friendly](https://search.google.com/test/mobile-friendly)
+        - [ ] Structured data is [valid](https://search.google.com/structured-data/testing-tool/) and [linted](http://linter.structured-data.org/)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE. 
+- [ ] Integrate Zotero to facilitate access to a curated library
+- [ ] Automate publishing new posts to social media and IESO Telegram group
+
+### Lighthouse metrics
+
+| Date     | Build | Performance |  PWA  | Accessibility | Best Practices |  SEO  |
+| :------- | :---- | :---------: | :---: | :-----------: | :------------: | :---: |
+| 02/03/19 | local |     100     |  42   |      72       |       87       |  100  |

@@ -1,0 +1,91 @@
+{
+  "chartOptions": {
+    "type": "line",
+    "data": {
+      "datasets": [{
+        "label": "MMR",
+        "yAxisID": "MMR",
+
+        "data": [{
+          "x": 1990,
+          "y": 1250
+        }, {
+          "x": 2000,
+          "y": 897
+        }, {
+          "x": 2011,
+          "y": 676
+        }, {
+          "x": 2014,
+          "y": 420
+        }, {
+          "x": 2017,
+          "y": 353
+        }],
+        "type": "line",
+        "borderColor": "#ee2333",
+        "borderWidth": 2
+
+      }, {
+        "label": "IESOs",
+        "yAxisID": "IESO",
+        "data": [{
+          "x": 2009,
+          "y": 0
+        }, {
+          "x": 2012,
+          "y": 2
+        }, {
+          "x": 2018,
+          "y": 720
+        }],
+        "type": "line",
+        "borderColor": "#4caf50",
+        "borderWidth": 2
+
+      }]
+    },
+    "options": {
+      "title": {
+        "text": "70% reduction in MMR",
+        "display": true,
+        "position": "bottom"
+      },
+      "legend": {
+        "display": false
+      },
+      "scales": {
+        "xAxes": [{
+          "scaleLabel": {
+            "display": false,
+            "labelString": "Year"
+          },
+          "type": "time",
+          "distribution": "linear",
+          "time": {
+            "unit": "year",
+            "tooltipFormat": "YYYY"
+          },
+          "ticks": {
+            "source": "auto"
+          }
+        }],
+        "yAxes": [{
+          "id": "MMR",
+          "position": "left",
+          "scaleLabel": {
+            "labelString": "MMR",
+            "fontColor": "#ee2333"
+          }
+        }, {
+          "id": "IESO",
+          "position": "right",
+          "scaleLabel": {
+            "labelString": "IESOs",
+            "fontColor": "#4caf50"
+          }
+        }]
+      }
+    }
+  }
+}

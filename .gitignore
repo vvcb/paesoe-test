@@ -4,7 +4,10 @@ _site/
 vendor/
 .sass-cache/
 .bundle/
+node_modules/
 
+.jekyll-metadata
+.eslintrc.*
 Gemfile
 Gemfile.lock
 

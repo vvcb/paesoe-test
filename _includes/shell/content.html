@@ -1,0 +1,13 @@
+ <!-- Start page content -->
+ {% assign ext = page.name | slice: -2,2 %}
+ {% if ext == 'md' %}
+ <!-- Wrap markdown files in a container -->
+ <section class="container">
+   {{ content }}
+ </section>
+
+ {% else %}
+
+ {{ content }}
+
+ {% endif %}

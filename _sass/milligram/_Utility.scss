@@ -1,0 +1,36 @@
+// Utility
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Clear a float with .clearfix
+.clearfix {
+  &:after {
+    clear: both;
+    content: " ";
+    display: table;
+  }
+}
+
+// Float either direction
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-center {
+  margin:auto;
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+
+.brdr {
+  border: 1px solid $clr-gray;
+  margin: 2px;
+}
+
+.shdw {
+  box-shadow: 0.2rem 0.4rem 1rem lighten($clr-gray, 0.5);
+}

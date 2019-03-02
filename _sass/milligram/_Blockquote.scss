@@ -1,0 +1,20 @@
+// Blockquote
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+blockquote {
+  border: 1px solid $clr-gray;
+  border-left: .3rem solid $clr-red;
+  box-shadow: 0.2rem 0.4rem 1rem lighten($clr-gray, 0.5);
+  margin: 1rem 0 2.5rem;
+  padding: 1rem;
+}
+
+blockquote :last-child {
+  margin: 0 0 1rem;
+}
+
+mark {
+  background: none;
+  font-weight: 600;
+  color: $clr-red;
+}
