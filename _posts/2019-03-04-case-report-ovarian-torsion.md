@@ -5,7 +5,7 @@ fulltitle: Adnexal/ovarian torsion - Clinical evaluation and surgical management
 description: > 
     Tadiwos Utalo reports on the case of a young woman with ovarian torsion
     his team treated at Bele Primary Hospital in Southern Ethiopia.
-image:
+image: /assets/images/2019-03-04-ieso-surgical-team.jpg
 authors: [Tadiwos Utalo]
 date: 2019-02-05
 tags: [performance, report, story, case]
