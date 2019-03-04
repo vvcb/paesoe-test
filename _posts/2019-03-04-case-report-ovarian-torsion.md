@@ -22,9 +22,10 @@ published: true
 <div class="col col-60" kramdown="1">
 
 Tadiwos Utalo BSc,MSc is an Integrated Emergency Surgery Officer based at Bele Primary Hospital, in the rural part of Wolaita Zone, Southern Ethiopia.
-The nearest referral hospital is 45 KM away.\\
+The nearest referral hospital is 45 KM away.
+
 <span class="i-mail"></span> tady.2001.tu@gmail.com \\
-<span class="i-phone"></span> <0960213136 \\
+<span class="i-phone"></span> 0960213136
 
 </div>
 </div>
@@ -111,7 +112,7 @@ The right adnexa, uterus, bladder and bowel were healthy.
 
 Detorsion or untwisting of the ischemic left ovarian mass and edematous fallopian tube was attempted to check for viability. With no evidence of viability, a left Salpingo-oopherectomy was performed to remove severely ischemic left adnexal torsion.
 
-#### Postoperative
+#### Postoperative Outcome
 
 The patient made an uneventful postoperative recovery and was discharged home after 5 days in the hospital.
 
@@ -127,6 +128,6 @@ The patient made an uneventful postoperative recovery and was discharged home af
 </div>
 </div>
 
-Thanks to the entire team at Bele Hospital including the anaesthetist, ward and theatre staff as well as the administrative staff, this patient has had a good outcome and is very grateful for the care she received.
+Thanks to the entire team at Bele Hospital including the anaesthetist, ward nurses, theatre staff as well as the administrative staff, this patient has had a good outcome and is very grateful for the care she received.
 <hr>
 <a href="/contact"><span class="i-mail"></span> Get in touch</a> with your own experience as an IESO and we will publish it here.
