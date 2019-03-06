@@ -8,8 +8,8 @@ node_modules/
 
 .jekyll-metadata
 .eslintrc.*
-Gemfile
-Gemfile.lock
+# Gemfile
+# Gemfile.lock
 
 #Ignore CNAME Changes
 CNAME
