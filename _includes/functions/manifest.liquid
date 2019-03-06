@@ -1,0 +1,114 @@
+{%- assign cacheUrls = '' | split: '' -%}
+{%- assign html = '' | split: '' -%}
+{%- assign images = '' | split: ''-%}
+{%- assign css = '' | split: ''-%}
+{%- assign js = '' | split: ''-%}
+{%- assign data = '' | split: '' -%}
+
+{%- for item in site.documents -%}
+    {%- capture htmlUrlRev -%}
+        {
+        "url": "{{item.url | prepend: site.baseurl}}.html",
+        "revision": {%- include functions/hash.liquid content=item.output -%}
+        }
+    {%- endcapture -%}
+    
+    {%- assign html =  html | push: htmlUrlRev -%}
+
+    {% comment %} Find images used in these documents {% endcomment %}
+    {%- assign content = item.output | split: '<img ' -%}
+    {%- assign content = content | where_exp: 'item', 'item contains "src="'-%}
+    {%- if content.size > 0 -%}
+        {%- for i in content -%}
+            {%- assign imageUrl = i | split: '>' 
+                            | first 
+                            | split: 'src="' 
+                            | last 
+                            | split: '"' 
+                            | first -%}
+            {%- assign img = site.static_files | where:'path', imageUrl -%}
+            {%- capture imageUrlRev -%}
+                {
+                    "url": "{{imageUrl | prepend: site.baseurl }}",
+                    "revision": "{{img[0].modified_time}}"
+                }
+            {%- endcapture -%}
+            {%- assign images = images | push: imageUrlRev  -%}
+        {% endfor %}
+    {%-endif-%}
+{%- endfor -%}
+
+
+{%- for item in site.pages -%}
+    {%- unless item.url contains 'xml' 
+        or item.url contains 'txt'
+        or item.url contains 'json'
+        or item.url contains 'CNAME' -%}
+        {%- assign content = item | inspect -%}
+        {%- assign content = content | url_decode -%}
+        {%-if item.url == '/'-%}
+            {%-assign itemUrl = '/index.html'-%}
+        {%-else-%}
+            {%-assign itemUrl = item.url -%}
+            {%-endif-%}
+        {%- capture url -%}
+            {
+            "url": "{{itemUrl | prepend: site.baseurl }}",
+            "revision": {%- include functions/hash.liquid content=item.content -%}
+            }
+        {%- endcapture -%}
+        {%-if item.url contains '.css'-%}
+            {%-assign css = css | push: url-%}
+        {%-elsif item.url contains '.js'-%}
+            {%-assign js = js | push: url-%}
+        {%-else-%}
+            {%- assign html =  html | push: url -%}
+            {% comment %} Find images used in these documents {% endcomment %}
+            {%- assign content = content | split: '<img ' -%}
+            {%- assign content = content | where_exp: 'item', 'item contains "src="'-%}
+            {%- if content.size > 0 -%}
+                {%- for i in content -%}
+                    {%- assign imageUrl = i | split: '>' 
+                                    | first 
+                                    | split: 'src="' 
+                                    | last 
+                                    | split: '"' 
+                                    | first -%}
+                    {%- assign img = site.static_files | where:'path', imageUrl -%}
+                    {%-if img[0].path-%}
+                        {%- capture imageUrlRev -%}
+                            {
+                            "url": "{{img[0].path | prepend: site.baseurl}}",
+                            "revision": "{{img[0].modified_time}}"
+                            }
+                        {%- endcapture -%}
+                        {%- assign images = images | push: imageUrlRev  -%}
+                    {%-endif-%}
+                {% endfor %}
+            {%-endif-%}     
+        {%-endif-%}
+    {%- endunless -%}
+
+{%- endfor -%}
+
+{%- for item in site.static_files -%}
+    {%- capture url -%}
+        {
+            "url": "{{item.path | prepend: site.baseurl}}",
+            "revision":"{{item.modified_time}}"
+        }
+    {%- endcapture -%}
+    {%- if item.path contains 'assets/data/' -%}
+        {%- assign data =  data | push: url -%}  
+    {%- elsif item.path contains '.js' -%}
+        {%- assign js =  js | push: url -%}
+    {%- endif -%}
+{%- endfor -%}
+
+{ 
+    "html": [{{ html | uniq | join: ',' }}],
+    "images": [{{ images |  uniq |join: ',' }}],
+    "css": [{{ css |  uniq | join: ',' }}],
+    "data": [{{ data |  uniq |join: ',' }}],
+    "js": [{{ js |  uniq | join: ',' }}]
+}

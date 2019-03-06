@@ -1,0 +1,16 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131797697-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-131797697-1');
+// Set dimension 1 'Network Status' to Online. 
+// Service worker will set this to Offline if offline requests are made
+  ga('set', 'dimension1', 'Online');
+
+</script>

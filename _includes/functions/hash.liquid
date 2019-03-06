@@ -1,0 +1,18 @@
+{%- assign w = include.content | split: '' | sort -%}
+{%- assign u = include.content | strip_html | split: '' | uniq | join: '' | strip -%}
+{%- assign sum = 0 -%}
+{%- assign count = 1 -%}
+{%- assign value = 1 -%}
+{%- assign old_c = '' -%}
+    {%- for c in w -%}
+        {%- if c == old_c -%}
+            {%- assign count = count | plus: 1-%}
+        {%- else -%}
+            {%- assign old_c = c -%}
+            {%- assign x =  value | times: count -%}
+            {%- assign sum = sum | plus: x -%}
+            {%- assign value = value | plus: 1 -%}
+            {%- assign count = 1 -%}  
+        {%- endif -%}
+    {%- endfor -%}
+{{ u | append: sum | jsonify }}

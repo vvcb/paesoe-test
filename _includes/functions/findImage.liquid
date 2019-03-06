@@ -1,0 +1,22 @@
+{% comment %} 
+    Find images used in these documents
+{% endcomment %}
+{%- assign content = include.content | split: '<img ' -%}
+{%- for i in content -%}
+    {%- if i contains 'src="' -%}
+        {%- assign imageUrl = i | split: '>' 
+                            | first 
+                            | split: 'src="' 
+                            | last 
+                            | split: '"' 
+                            | first -%}
+        {%- assign img = site.static_files | where:'path', imageUrl -%}
+        {%- capture url -%}
+            {
+            "url": "{{imageUrl}}",
+            "revision": "{{img[0].modified_time}}"
+            }
+    {%- endcapture -%}
+    {% endif %}
+{% endfor %}
+{{url}}
