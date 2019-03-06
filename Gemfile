@@ -19,10 +19,12 @@ gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
+  gem "rake"
   gem "jekyll-feed"
   gem "jekyll-sitemap"
   gem "jekyll-relative-links"
   gem "jekyll-seo-tag"
+  gem "html-proofer"
 end
 
 
