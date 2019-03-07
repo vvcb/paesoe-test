@@ -70,7 +70,7 @@ function start() {
       plugins: [
         new workbox.expiration.Plugin({
           maxEntries: 50,
-          maxAgeSeconds: 60 * 60 * 24 * 180
+          maxAgeSeconds: 60 * 60 * 24 * 30
         }),
         // Enable Background sync if requests fail
         bgSyncPlugin
@@ -86,16 +86,16 @@ function start() {
       plugins: [
         new workbox.expiration.Plugin({
           maxEntries: 50,
-          maxAgeSeconds: 60 * 60 * 24 * 60
+          maxAgeSeconds: 60 * 60 * 24 * 30
         }),
         bgSyncPlugin,
       ],
     })
   );
-
+  
+  // StaleWhileRevalidate - JS
   workbox.routing.registerRoute(
     new RegExp('.*\.js'),
     new workbox.strategies.StaleWhileRevalidate()
   );
-
 }

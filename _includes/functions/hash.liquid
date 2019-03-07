@@ -15,4 +15,15 @@
             {%- assign count = 1 -%}  
         {%- endif -%}
     {%- endfor -%}
-{{ u | append: sum | jsonify }}
+
+{%- assign sym = '-–,;:!?.‘’"“”()[]{}@/\&#%^+<=| ' | split:'' -%}
+{%- assign alnum = u | slice: 0, sym.size -%}
+{%- for i in sym-%}
+{%-capture index -%}
+{% increment index %}
+{%-endcapture -%}
+{%- assign u = u | replace: i, increment index %}
+{%- endfor -%}
+{{ u | downcase 
+     | split: '' | uniq | reverse | join: '' 
+     | prepend: sum | truncate:32,"" | jsonify }}

@@ -1,9 +1,11 @@
 {% comment %} 
     Find images used in these documents
 {% endcomment %}
+
 {%- assign content = include.content | split: '<img ' -%}
-{%- for i in content -%}
-    {%- if i contains 'src="' -%}
+{%- assign content = content | where_exp: 'item', 'item contains "src="'-%}
+{%- if content.size > 0 -%}
+    {%- for i in content -%}
         {%- assign imageUrl = i | split: '>' 
                             | first 
                             | split: 'src="' 
@@ -11,12 +13,13 @@
                             | split: '"' 
                             | first -%}
         {%- assign img = site.static_files | where:'path', imageUrl -%}
-        {%- capture url -%}
-            {
-            "url": "{{imageUrl}}",
-            "revision": "{{img[0].modified_time}}"
-            }
-    {%- endcapture -%}
-    {% endif %}
+        {%- capture imageUrlRev -%}
+{"url": "{{imageUrl}}",
+"revision": "{{img[0].modified_time}}"}
+        {%- endcapture -%}
+    {%- assign temp = temp | push: imageUrlRev  -%}
 {% endfor %}
-{{url}}
+{%- capture t -%}
+{{temp | where_exp: 'item', 'item.size>0' | join: ',' }}
+{%-endcapture-%}
+{{t}}

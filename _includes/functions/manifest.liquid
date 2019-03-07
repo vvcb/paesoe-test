@@ -8,7 +8,7 @@
 {%- for item in site.documents -%}
     {%- capture htmlUrlRev -%}
         {
-        "url": "{{item.url | prepend: site.baseurl}}.html",
+        "url": "{{item.url}}.html",
         "revision": {%- include functions/hash.liquid content=item.output -%}
         }
     {%- endcapture -%}
@@ -29,7 +29,7 @@
             {%- assign img = site.static_files | where:'path', imageUrl -%}
             {%- capture imageUrlRev -%}
                 {
-                    "url": "{{imageUrl | prepend: site.baseurl }}",
+                    "url": "{{imageUrl}}",
                     "revision": "{{img[0].modified_time}}"
                 }
             {%- endcapture -%}
@@ -53,16 +53,27 @@
             {%-endif-%}
         {%- capture url -%}
             {
-            "url": "{{itemUrl | prepend: site.baseurl }}",
-            "revision": {%- include functions/hash.liquid content=item.content -%}
+            "url": "{{itemUrl}}",
+            "revision": {%- include functions/hash.liquid content=content -%}
             }
         {%- endcapture -%}
         {%-if item.url contains '.css'-%}
             {%-assign css = css | push: url-%}
-        {%-elsif item.url contains '.js'-%}
-            {%-assign js = js | push: url-%}
+        {%-elsif item.url contains '.js' -%}
+            {%-unless item.url contains 'sw.js'-%}
+                {%-assign js = js | push: url-%}
+            {%-endunless-%}
         {%-else-%}
-            {%- assign html =  html | push: url -%}
+            {%-capture content-%}
+                {% include_relative _layouts/page.html content=content %}
+            {%-endcapture-%}
+            {%- capture htmlUrlRev -%}
+            {
+            "url": "{{itemUrl}}",
+            "revision": {%- include functions/hash.liquid content=content -%}
+            }
+        {%- endcapture -%}
+            {%- assign html =  html| push: htmlUrlRev  -%}
             {% comment %} Find images used in these documents {% endcomment %}
             {%- assign content = content | split: '<img ' -%}
             {%- assign content = content | where_exp: 'item', 'item contains "src="'-%}
@@ -78,7 +89,7 @@
                     {%-if img[0].path-%}
                         {%- capture imageUrlRev -%}
                             {
-                            "url": "{{img[0].path | prepend: site.baseurl}}",
+                            "url": "{{img[0].path}}",
                             "revision": "{{img[0].modified_time}}"
                             }
                         {%- endcapture -%}
@@ -94,7 +105,7 @@
 {%- for item in site.static_files -%}
     {%- capture url -%}
         {
-            "url": "{{item.path | prepend: site.baseurl}}",
+            "url": "{{item.path}}",
             "revision":"{{item.modified_time}}"
         }
     {%- endcapture -%}
