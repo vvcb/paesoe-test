@@ -8,7 +8,7 @@
 {%- for item in site.documents -%}
     {%- capture htmlUrlRev -%}
         {
-        "url": "{{item.url}}.html",
+        "url": "{{item.url | prepend: site.baseurl}}.html",
         "revision": {%- include functions/hash.liquid content=item.output -%}
         }
     {%- endcapture -%}
@@ -29,7 +29,7 @@
             {%- assign img = site.static_files | where:'path', imageUrl -%}
             {%- capture imageUrlRev -%}
                 {
-                    "url": "{{imageUrl}}",
+                    "url": "{{imageUrl | prepend: site.baseurl}}",
                     "revision": "{{img[0].modified_time}}"
                 }
             {%- endcapture -%}
@@ -53,7 +53,7 @@
             {%-endif-%}
         {%- capture url -%}
             {
-            "url": "{{itemUrl}}",
+            "url": "{{itemUrl | prepend: site.baseurl}}",
             "revision": {%- include functions/hash.liquid content=content -%}
             }
         {%- endcapture -%}
@@ -69,7 +69,7 @@
             {%-endcapture-%}
             {%- capture htmlUrlRev -%}
             {
-            "url": "{{itemUrl}}",
+            "url": "{{itemUrl | prepend: site.baseurl}}",
             "revision": {%- include functions/hash.liquid content=content -%}
             }
         {%- endcapture -%}
@@ -89,7 +89,7 @@
                     {%-if img[0].path-%}
                         {%- capture imageUrlRev -%}
                             {
-                            "url": "{{img[0].path}}",
+                            "url": "{{img[0].path | prepend: site.baseurl}}",
                             "revision": "{{img[0].modified_time}}"
                             }
                         {%- endcapture -%}
@@ -105,7 +105,7 @@
 {%- for item in site.static_files -%}
     {%- capture url -%}
         {
-            "url": "{{item.path}}",
+            "url": "{{item.path | prepend: site.baseurl}}",
             "revision":"{{item.modified_time}}"
         }
     {%- endcapture -%}
