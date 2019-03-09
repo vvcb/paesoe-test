@@ -8,7 +8,7 @@
 {%- for item in site.documents -%}
     {%- capture htmlUrlRev -%}
         {
-        "url": "{{item.url | prepend: site.baseurl}}.html",
+        "url": "{{item.url | prepend: site.baseurl}}",
         "revision": {%- include functions/hash.liquid content=item.output -%}
         }
     {%- endcapture -%}
