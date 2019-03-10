@@ -3,7 +3,7 @@ module.exports = {
   globPatterns: [
     "**/*.{html,css,json,jpg,jpeg,png,webp,js}"
   ],
-  swDest: "_site/sw.js",
+  swDest: "./sw.js",
   manifestTransforms: [
     // Append baseurl to paths
     (originalManifest) => {
