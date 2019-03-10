@@ -3,13 +3,18 @@ branches:
   only:
   - feature/pwa-travis 
 
+dist: xenial
+addons:
+  apt:
+    sources:
+      - github-git-lfs-xenial
+      - libcurl4-openssl-dev
+
 # Build Matrix (https://docs.travis-ci.com/user/build-matrix/)
-matrix:
-  include:
-    - language: ruby
-      rvm: 
-        - 2.4.1
-    - language: node_js
+# language: ruby
+# rvm: 
+#  - 2.4.1
+# language: node_js
 
 # ==============================================================
 # Job lifecycle (https://docs.travis-ci.com/user/job-lifecycle/)
@@ -17,9 +22,10 @@ matrix:
 # 1. OPTIONAL Install apt addons
 # 2. OPTIONAL Install cache components
 # 3. before_install
-before_install:
-  # - sudo apt update
-  - sudo apt-get install -y libcurl4-openssl-dev
+# before_install:
+#   # - sudo apt update
+#   - sudo apt-get install -y 
+#   - nvm install node
 
 # 4. install
 install:
