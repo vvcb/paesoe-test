@@ -11,7 +11,7 @@ module.exports = {
       const manifest = originalManifest.map(entry => {
         if (!(entry.url.startsWith('http') ||
              entry.url.startsWith('www'))){
-          entry.url = baseurl + entry.url;
+          entry.url = BASEURL + entry.url;
         }
         return entry;
       });
