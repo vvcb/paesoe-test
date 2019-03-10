@@ -4,6 +4,21 @@ module.exports = {
     "**/*.{html,css,json,jpg,jpeg,png,webp,js}"
   ],
   swDest: "_site/sw.js",
+  manifestTransforms: [
+    // Append baseurl to paths
+    (originalManifest) => {
+      const BASEURL = 'paesoe-test/';
+      const manifest = originalManifest.map(entry => {
+        if (!(entry.url.startsWith('http') ||
+             entry.url.startsWith('www'))){
+          entry.url = baseurl + entry.url;
+        }
+        return entry;
+      });
+      
+      return {manifest, warnings};
+    }
+  ],
   offlineGoogleAnalytics: {
     cacheName: 'paesoe-ga-cache',
     parameterOverrides: {
