@@ -16,7 +16,7 @@ module.exports = {
         return entry;
       });
       
-      return {manifest, warnings};
+      return {manifest, warnings: []};
     }
   ],
   offlineGoogleAnalytics: {
