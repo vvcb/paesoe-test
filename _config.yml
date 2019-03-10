@@ -4,8 +4,8 @@ tagline: Emergency Surgery Saves Lives
 description: > 
   Professional Association of Emergency Surgery Officers in Ethiopia. 
   Saving lives across Ethiopia through emergency obstetric, general and trauma surgery.
-url: https://paesoe.org
-baseurl: ''
+url: https://vvcb.github.io
+baseurl: 'paesoe-test'
 version: 0.0.3
 permalink: /:year/:month/:title
 
