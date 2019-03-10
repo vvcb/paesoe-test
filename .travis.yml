@@ -30,7 +30,7 @@ addons:
 # 4. install
 install:
   - bundle install --path vendor/bundle
-  - npm install --save workbox-cli
+  - npm install workbox-cli --global
 
 # 5. before_script
 # before_script:
